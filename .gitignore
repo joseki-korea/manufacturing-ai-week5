@@ -1,0 +1,12 @@
+
+
+# repo-standard: append to existing .gitignore (do not replace)
+assets/binaries/*
+!assets/binaries/README.md
+!assets/binaries/*.md
+.env
+.env.*
+*.pem
+*.key
+**/secrets/
+*.secret

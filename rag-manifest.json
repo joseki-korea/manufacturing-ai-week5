@@ -1,0 +1,122 @@
+{
+  "schema_version": "0.1-DRAFT",
+  "repo": "joseki-korea-manufacturing-ai-week5",
+  "updated": "2026-11-07",
+  "docs": [
+    {
+      "path": "README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/README.md",
+      "doc_type": "readme",
+      "tags": [
+        "manufacturing-ai",
+        "unsupervised-learning",
+        "generative-models",
+        "autoencoder",
+        "vae",
+        "gan",
+        "diffusion"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "28c7f2d4"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "c105bf4b"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "17a0481c"
+    },
+    {
+      "path": "assets/images/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "2b9c1c16"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "f32e3ce4"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "id": "joseki-korea-manufacturing-ai-week5/docs/ARCHITECTURE",
+      "doc_type": "architecture",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "86174062"
+    },
+    {
+      "path": "docs/ROLES.md",
+      "id": "joseki-korea-manufacturing-ai-week5/docs/ROLES",
+      "doc_type": "roles",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "b4f2baec"
+    },
+    {
+      "path": "docs/RULES.md",
+      "id": "joseki-korea-manufacturing-ai-week5/docs/RULES",
+      "doc_type": "rules",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "16704b7e"
+    },
+    {
+      "path": "handoffs/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/handoffs/README",
+      "doc_type": "handoff",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "981483d5"
+    },
+    {
+      "path": "handoffs/_TEMPLATE.md",
+      "id": "joseki-korea-manufacturing-ai-week5/handoffs/TEMPLATE",
+      "doc_type": "handoff",
+      "tags": [
+        "doc"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "a3f919c5"
+    }
+  ],
+  "excluded": [
+    "assets/binaries/**",
+    "**/*.env",
+    "**/secrets/**",
+    "*.ipynb",
+    "node_modules/**",
+    "dist/**",
+    "build/**"
+  ]
+}
