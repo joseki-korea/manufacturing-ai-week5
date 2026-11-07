@@ -9,7 +9,8 @@ status: DRAFT
 updated: 2026-11-07
 source_of_truth: README.md
 ---
-
+- **GitHub Repository**: https://github.com/joseki-korea/manufacturing-ai-week5
+- **Google Drive Artifacts**: `Orca 산출물/프로젝트/manufacturing-ai-week5/` (pending upload)
 # 충북대학교 제조 AI 실제 (8884023-01) - 5주차 실습 및 과제
 
 - **작성자**: 2026154001 정용석

@@ -27,3 +27,22 @@ assets/videos/*
 *.avi
 *.mkv
 *.webm
+# Assets Drive sync ignores (Addendum 2, 5 & 6)
+/assets/images/*
+!/assets/images/README.md
+!/assets/images/drive-manifest.json
+/assets/binaries/*
+!/assets/binaries/README.md
+!/assets/binaries/drive-manifest.json
+/assets/videos/*
+!/assets/videos/README.md
+!/assets/videos/drive-manifest.json
+
+# Keep assets/ui-components source tracked, ignore only media/binary
+/assets/ui-components/*.png
+/assets/ui-components/*.jpg
+/assets/ui-components/*.jpeg
+/assets/ui-components/*.gif
+/assets/ui-components/*.webp
+/assets/ui-components/*.zip
+/assets/ui-components/*.tar*

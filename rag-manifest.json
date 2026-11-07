@@ -1,12 +1,100 @@
 {
   "manifest_version": "1.0.0",
+  "version": "1.0.0",
   "repo": "joseki-korea/manufacturing-ai-week5",
   "updated": "2026-11-07",
-  "docs": [
+  "device_scope": "all",
+  "total_documents": 26,
+  "documents": [
     {
-      "path": "assets/README.md",
+      "id": "manufacturing-ai-week5/AGENTS.md",
+      "title": "Codex Terra Agent Role and Execution Guidelines",
+      "path": "AGENTS.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "codex",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/codex-role.md",
+      "sha8": "e1514efb"
+    },
+    {
+      "id": "manufacturing-ai-week5/ARCHITECTURE.md",
+      "title": "Repository Architecture Pointer",
+      "path": "ARCHITECTURE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "31953e08"
+    },
+    {
+      "id": "manufacturing-ai-week5/CLAUDE.md",
+      "title": "Claude Agent Role and Control Guidelines",
+      "path": "CLAUDE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "claude",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/claude-role.md",
+      "sha8": "3b021920"
+    },
+    {
+      "id": "manufacturing-ai-week5/GEMINI.md",
+      "title": "Antigravity Agent Role and Execution Guidelines",
+      "path": "GEMINI.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "antigravity",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/antigravity-role.md",
+      "sha8": "6546f5c0"
+    },
+    {
+      "id": "manufacturing-ai-week5/RULES.md",
+      "title": "Repository Global Rules Pointer",
+      "path": "RULES.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/RULES.md",
+      "sha8": "26cf5f5b"
+    },
+    {
       "id": "joseki-korea-manufacturing-ai-week5/assets/README",
       "title": "에셋 디렉터리 (assets/) — 개요",
+      "path": "assets/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "asset-index",
       "tags": [
         "assets",
@@ -14,12 +102,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "assets/",
       "sha8": "41907ebb"
     },
     {
-      "path": "assets/binaries/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
       "title": "바이너리 에셋",
+      "path": "assets/binaries/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "asset-index",
       "tags": [
         "assets",
@@ -27,12 +118,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
       "sha8": "b5311579"
     },
     {
-      "path": "assets/components/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
       "title": "컴포넌트 에셋",
+      "path": "assets/components/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "asset-index",
       "tags": [
         "assets",
@@ -40,12 +134,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
       "sha8": "a56303e4"
     },
     {
-      "path": "assets/images/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
       "title": "이미지 에셋",
+      "path": "assets/images/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "asset-index",
       "tags": [
         "assets",
@@ -53,12 +150,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
       "sha8": "675a7537"
     },
     {
-      "path": "assets/src/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
       "title": "소스코드 에셋",
+      "path": "assets/src/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "asset-index",
       "tags": [
         "assets",
@@ -66,12 +166,31 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
       "sha8": "c19ef08c"
     },
     {
-      "path": "assets/videos/README.md",
+      "id": "manufacturing-ai-week5/assets/ui-components/README",
+      "title": "UI Components Asset Directory",
+      "path": "assets/ui-components/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "ui-components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "assets/ui-components/README.md",
+      "sha8": "49d17340"
+    },
+    {
       "id": "joseki-korea-manufacturing-ai-week5/assets/videos/README",
       "title": "비디오 에셋",
+      "path": "assets/videos/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "asset-index",
       "tags": [
         "assets",
@@ -80,12 +199,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
       "sha8": "8c0d6912"
     },
     {
-      "path": "docs/ARCHITECTURE.md",
       "id": "manufacturing-ai-week5/docs/ARCHITECTURE.md",
       "title": "Repository Architecture and Current->Target Migration Plan",
+      "path": "docs/ARCHITECTURE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "architecture",
       "tags": [
         "architecture",
@@ -94,12 +216,32 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "107834ee"
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "c998b131"
     },
     {
-      "path": "docs/README.md",
+      "id": "manufacturing-ai-week5/docs/ASSET-MAP.md",
+      "title": "Asset Mapping and Semantic Migration Plan",
+      "path": "docs/ASSET-MAP.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "assets",
+        "semantic-reorg"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ASSET-MAP.md",
+      "sha8": "9c7ea5be"
+    },
+    {
       "id": "joseki-korea-manufacturing-ai-week5/docs/README",
       "title": "문서 모음 (docs/) — 개요",
+      "path": "docs/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "readme",
       "tags": [
         "docs",
@@ -109,12 +251,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/",
       "sha8": "fe11acdf"
     },
     {
-      "path": "docs/ROLES.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/ROLES",
       "title": "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 세션 역할",
+      "path": "docs/ROLES.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "roles",
       "tags": [
         "roles",
@@ -122,12 +267,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "vault main rules/INDEX.md (Rule 01)",
       "sha8": "adf2e8c7"
     },
     {
-      "path": "docs/RULES.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/RULES",
       "title": "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 규칙",
+      "path": "docs/RULES.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "rules",
       "tags": [
         "rules",
@@ -135,12 +283,133 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "vault main rules/INDEX.md",
       "sha8": "8dd8220e"
     },
     {
-      "path": "handoffs/README.md",
+      "id": "manufacturing-ai-week5/docs/agents/README.md",
+      "title": "Agent Roles and Rules Index",
+      "path": "docs/agents/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "readme",
+      "tags": [
+        "agents",
+        "index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/README.md",
+      "sha8": "2c738172"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/antigravity-role.md",
+      "title": "Antigravity Worker Role Definition",
+      "path": "docs/agents/antigravity-role.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "antigravity",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/antigravity-role.md",
+      "sha8": "94f1fb16"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/antigravity-rules.md",
+      "title": "Antigravity Agent Operational Rules",
+      "path": "docs/agents/antigravity-rules.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "antigravity",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/antigravity-rules.md",
+      "sha8": "b0d6651c"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/claude-role.md",
+      "title": "Claude Lead Orchestrator Role Definition",
+      "path": "docs/agents/claude-role.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "claude",
+        "role",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/claude-role.md",
+      "sha8": "e0b7b6ab"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/claude-rules.md",
+      "title": "Claude Agent Operational Rules",
+      "path": "docs/agents/claude-rules.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "claude",
+        "rules",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/claude-rules.md",
+      "sha8": "905f739b"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/codex-role.md",
+      "title": "Codex Terra Worker Role Definition",
+      "path": "docs/agents/codex-role.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "codex",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/codex-role.md",
+      "sha8": "ad5a9d3b"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/codex-rules.md",
+      "title": "Codex Terra Agent Operational Rules",
+      "path": "docs/agents/codex-rules.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "codex",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/codex-rules.md",
+      "sha8": "ee62ece2"
+    },
+    {
       "id": "joseki-korea-manufacturing-ai-week5/handoffs/README",
       "title": "핸드오프 폴더 안내",
+      "path": "handoffs/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "handoff",
       "tags": [
         "handoff",
@@ -148,12 +417,15 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "docs/ROLES.md",
       "sha8": "2d22c680"
     },
     {
-      "path": "handoffs/_TEMPLATE.md",
       "id": "joseki-korea-manufacturing-ai-week5/handoffs/TEMPLATE",
       "title": "핸드오프 — TEMPLATE",
+      "path": "handoffs/_TEMPLATE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
       "doc_type": "handoff",
       "tags": [
         "handoff",
@@ -161,12 +433,445 @@
       ],
       "status": "DRAFT",
       "updated": "2026-11-07",
+      "source_of_truth": "handoffs/README.md",
+      "sha8": "ad493e61"
+    }
+  ],
+  "docs": [
+    {
+      "id": "manufacturing-ai-week5/AGENTS.md",
+      "title": "Codex Terra Agent Role and Execution Guidelines",
+      "path": "AGENTS.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "codex",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/codex-role.md",
+      "sha8": "e1514efb"
+    },
+    {
+      "id": "manufacturing-ai-week5/ARCHITECTURE.md",
+      "title": "Repository Architecture Pointer",
+      "path": "ARCHITECTURE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "31953e08"
+    },
+    {
+      "id": "manufacturing-ai-week5/CLAUDE.md",
+      "title": "Claude Agent Role and Control Guidelines",
+      "path": "CLAUDE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "claude",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/claude-role.md",
+      "sha8": "3b021920"
+    },
+    {
+      "id": "manufacturing-ai-week5/GEMINI.md",
+      "title": "Antigravity Agent Role and Execution Guidelines",
+      "path": "GEMINI.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "agent",
+        "antigravity",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/antigravity-role.md",
+      "sha8": "6546f5c0"
+    },
+    {
+      "id": "manufacturing-ai-week5/RULES.md",
+      "title": "Repository Global Rules Pointer",
+      "path": "RULES.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "pointer"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/RULES.md",
+      "sha8": "26cf5f5b"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/assets/README",
+      "title": "에셋 디렉터리 (assets/) — 개요",
+      "path": "assets/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "overview"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "assets/",
+      "sha8": "41907ebb"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
+      "title": "바이너리 에셋",
+      "path": "assets/binaries/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "binaries"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "b5311579"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
+      "title": "컴포넌트 에셋",
+      "path": "assets/components/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "a56303e4"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
+      "title": "이미지 에셋",
+      "path": "assets/images/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "images"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "675a7537"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
+      "title": "소스코드 에셋",
+      "path": "assets/src/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "src"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "c19ef08c"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/ui-components/README",
+      "title": "UI Components Asset Directory",
+      "path": "assets/ui-components/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "ui-components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "assets/ui-components/README.md",
+      "sha8": "49d17340"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/assets/videos/README",
+      "title": "비디오 에셋",
+      "path": "assets/videos/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "videos",
+        "drive"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "8c0d6912"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/ARCHITECTURE.md",
+      "title": "Repository Architecture and Current->Target Migration Plan",
+      "path": "docs/ARCHITECTURE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "current-target-tree",
+        "migration-plan"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ARCHITECTURE.md",
+      "sha8": "c998b131"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/ASSET-MAP.md",
+      "title": "Asset Mapping and Semantic Migration Plan",
+      "path": "docs/ASSET-MAP.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "architecture",
+      "tags": [
+        "architecture",
+        "assets",
+        "semantic-reorg"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ASSET-MAP.md",
+      "sha8": "9c7ea5be"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/docs/README",
+      "title": "문서 모음 (docs/) — 개요",
+      "path": "docs/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "readme",
+      "tags": [
+        "docs",
+        "architecture",
+        "rules",
+        "roles"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/",
+      "sha8": "fe11acdf"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/docs/ROLES",
+      "title": "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 세션 역할",
+      "path": "docs/ROLES.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "roles",
+        "sessions"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "vault main rules/INDEX.md (Rule 01)",
+      "sha8": "adf2e8c7"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/docs/RULES",
+      "title": "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 규칙",
+      "path": "docs/RULES.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "rules",
+        "safety"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "vault main rules/INDEX.md",
+      "sha8": "8dd8220e"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/README.md",
+      "title": "Agent Roles and Rules Index",
+      "path": "docs/agents/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "readme",
+      "tags": [
+        "agents",
+        "index"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/README.md",
+      "sha8": "2c738172"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/antigravity-role.md",
+      "title": "Antigravity Worker Role Definition",
+      "path": "docs/agents/antigravity-role.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "antigravity",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/antigravity-role.md",
+      "sha8": "94f1fb16"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/antigravity-rules.md",
+      "title": "Antigravity Agent Operational Rules",
+      "path": "docs/agents/antigravity-rules.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "antigravity",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/antigravity-rules.md",
+      "sha8": "b0d6651c"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/claude-role.md",
+      "title": "Claude Lead Orchestrator Role Definition",
+      "path": "docs/agents/claude-role.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "claude",
+        "role",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/claude-role.md",
+      "sha8": "e0b7b6ab"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/claude-rules.md",
+      "title": "Claude Agent Operational Rules",
+      "path": "docs/agents/claude-rules.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "claude",
+        "rules",
+        "control"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/claude-rules.md",
+      "sha8": "905f739b"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/codex-role.md",
+      "title": "Codex Terra Worker Role Definition",
+      "path": "docs/agents/codex-role.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "roles",
+      "tags": [
+        "codex",
+        "role",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/codex-role.md",
+      "sha8": "ad5a9d3b"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/codex-rules.md",
+      "title": "Codex Terra Agent Operational Rules",
+      "path": "docs/agents/codex-rules.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "rules",
+      "tags": [
+        "codex",
+        "rules",
+        "worker"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/agents/codex-rules.md",
+      "sha8": "ee62ece2"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/handoffs/README",
+      "title": "핸드오프 폴더 안내",
+      "path": "handoffs/README.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "sessions"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "docs/ROLES.md",
+      "sha8": "2d22c680"
+    },
+    {
+      "id": "joseki-korea-manufacturing-ai-week5/handoffs/TEMPLATE",
+      "title": "핸드오프 — TEMPLATE",
+      "path": "handoffs/_TEMPLATE.md",
+      "repo": "joseki-korea/manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "template"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "source_of_truth": "handoffs/README.md",
       "sha8": "ad493e61"
     }
   ],
   "excluded_paths": [
-    "README.md (PII-pre-existing)",
-    "*.ipynb (PII-pre-existing)",
+    "README.md",
+    "*.ipynb",
     "assets/images/*",
     "assets/binaries/*",
     "assets/videos/*",
@@ -177,5 +882,55 @@
     "build",
     ".cache",
     "__pycache__"
+  ],
+  "exclusions": [
+    {
+      "path": "README.md",
+      "reason": "PII-pre-existing"
+    },
+    {
+      "path": "*.ipynb",
+      "reason": "PII-pre-existing"
+    },
+    {
+      "path": "assets/images/*",
+      "reason": "Drive sync"
+    },
+    {
+      "path": "assets/binaries/*",
+      "reason": "Drive sync"
+    },
+    {
+      "path": "assets/videos/*",
+      "reason": "Drive sync"
+    },
+    {
+      "path": ".env*",
+      "reason": "Security / credentials"
+    },
+    {
+      "path": "node_modules",
+      "reason": "Dependencies"
+    },
+    {
+      "path": ".git",
+      "reason": "Version control internal"
+    },
+    {
+      "path": "dist",
+      "reason": "Build output"
+    },
+    {
+      "path": "build",
+      "reason": "Build output"
+    },
+    {
+      "path": ".cache",
+      "reason": "Temporary cache"
+    },
+    {
+      "path": "__pycache__",
+      "reason": "Python bytecode cache"
+    }
   ]
 }
