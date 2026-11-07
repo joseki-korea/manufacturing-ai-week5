@@ -2,9 +2,9 @@
   "manifest_version": "1.0.0",
   "version": "1.0.0",
   "repo": "joseki-korea/manufacturing-ai-week5",
-  "updated": "2026-11-07",
+  "updated": "2026-11-08",
   "device_scope": "all",
-  "total_documents": 26,
+  "total_documents": 60,
   "documents": [
     {
       "id": "manufacturing-ai-week5/AGENTS.md",
@@ -435,6 +435,516 @@
       "updated": "2026-11-07",
       "source_of_truth": "handoffs/README.md",
       "sha8": "ad493e61"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/images/brand/README.md",
+      "title": "README",
+      "path": "assets/images/brand/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/images/brand/README.md",
+      "sha8": "fd9a0f54"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/images/product/README.md",
+      "title": "README",
+      "path": "assets/images/product/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/images/product/README.md",
+      "sha8": "9b1137a2"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/images/photos/README.md",
+      "title": "README",
+      "path": "assets/images/photos/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/images/photos/README.md",
+      "sha8": "15779116"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/images/diagrams/README.md",
+      "title": "README",
+      "path": "assets/images/diagrams/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/images/diagrams/README.md",
+      "sha8": "10f8f284"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/images/screenshots/README.md",
+      "title": "README",
+      "path": "assets/images/screenshots/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/images/screenshots/README.md",
+      "sha8": "fe7455d6"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/ui/components/README.md",
+      "title": "README",
+      "path": "assets/ui/components/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/ui/components/README.md",
+      "sha8": "7a19785e"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/ui/tokens/README.md",
+      "title": "README",
+      "path": "assets/ui/tokens/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/ui/tokens/README.md",
+      "sha8": "3850c4ca"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/ui/icons/README.md",
+      "title": "README",
+      "path": "assets/ui/icons/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/ui/icons/README.md",
+      "sha8": "ed1b3aa3"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/ui/mockups/README.md",
+      "title": "README",
+      "path": "assets/ui/mockups/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/ui/mockups/README.md",
+      "sha8": "1d78434d"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/ui/README.md",
+      "title": "README",
+      "path": "assets/ui/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/ui/README.md",
+      "sha8": "df90a760"
+    },
+    {
+      "id": "manufacturing-ai-week5/RAG.md",
+      "title": "RAG",
+      "path": "RAG.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "RAG.md",
+      "sha8": "0df04475"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/glossary.md",
+      "title": "glossary",
+      "path": "docs/glossary.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/glossary.md",
+      "sha8": "f643a65e"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/ROLE-claude.md",
+      "title": "ROLE-claude",
+      "path": "docs/agents/ROLE-claude.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/ROLE-claude.md",
+      "sha8": "73ab2202"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/ROLE-codex.md",
+      "title": "ROLE-codex",
+      "path": "docs/agents/ROLE-codex.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/ROLE-codex.md",
+      "sha8": "7fa25c9c"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/ROLE-antigravity.md",
+      "title": "ROLE-antigravity",
+      "path": "docs/agents/ROLE-antigravity.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/ROLE-antigravity.md",
+      "sha8": "985ef89b"
+    },
+    {
+      "id": "manufacturing-ai-week5/CONTRIBUTING.md",
+      "title": "CONTRIBUTING",
+      "path": "CONTRIBUTING.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "CONTRIBUTING.md",
+      "sha8": "b27340bb"
+    },
+    {
+      "id": "manufacturing-ai-week5/.github/pull_request_template.md",
+      "title": "pull_request_template",
+      "path": ".github/pull_request_template.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": ".github/pull_request_template.md",
+      "sha8": "0b920dd8"
+    },
+    {
+      "id": "manufacturing-ai-week5/assets/MANIFEST.md",
+      "title": "MANIFEST",
+      "path": "assets/MANIFEST.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "assets/MANIFEST.md",
+      "sha8": "40a3919d"
+    },
+    {
+      "id": "manufacturing-ai-week5/data/README.md",
+      "title": "README",
+      "path": "data/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "data/README.md",
+      "sha8": "ddd4e9ae"
+    },
+    {
+      "id": "manufacturing-ai-week5/configs/README.md",
+      "title": "README",
+      "path": "configs/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "configs/README.md",
+      "sha8": "08543b47"
+    },
+    {
+      "id": "manufacturing-ai-week5/src/README.md",
+      "title": "README",
+      "path": "src/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "src/README.md",
+      "sha8": "99d84a47"
+    },
+    {
+      "id": "manufacturing-ai-week5/notebooks/README.md",
+      "title": "README",
+      "path": "notebooks/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "notebooks/README.md",
+      "sha8": "4d00de09"
+    },
+    {
+      "id": "manufacturing-ai-week5/experiments/README.md",
+      "title": "README",
+      "path": "experiments/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "experiments/README.md",
+      "sha8": "2f486110"
+    },
+    {
+      "id": "manufacturing-ai-week5/models/README.md",
+      "title": "README",
+      "path": "models/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "models/README.md",
+      "sha8": "c7ef3304"
+    },
+    {
+      "id": "manufacturing-ai-week5/reports/README.md",
+      "title": "README",
+      "path": "reports/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "reports/README.md",
+      "sha8": "57380acf"
+    },
+    {
+      "id": "manufacturing-ai-week5/FOLDER-STRUCTURE.md",
+      "title": "FOLDER-STRUCTURE",
+      "path": "FOLDER-STRUCTURE.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "FOLDER-STRUCTURE.md",
+      "sha8": "1dd2d4c0"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/pm.md",
+      "title": "pm",
+      "path": "docs/agents/sessions/pm.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/pm.md",
+      "sha8": "0d030b72"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/worker.md",
+      "title": "worker",
+      "path": "docs/agents/sessions/worker.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/worker.md",
+      "sha8": "4a9fe49e"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/ego-lite.md",
+      "title": "ego-lite",
+      "path": "docs/agents/sessions/ego-lite.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/ego-lite.md",
+      "sha8": "de763fd8"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/handoff.md",
+      "title": "handoff",
+      "path": "docs/agents/sessions/handoff.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/handoff.md",
+      "sha8": "0eca7457"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/google-drive-backup.md",
+      "title": "google-drive-backup",
+      "path": "docs/agents/sessions/google-drive-backup.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/google-drive-backup.md",
+      "sha8": "420bb753"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/github-backup.md",
+      "title": "github-backup",
+      "path": "docs/agents/sessions/github-backup.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/github-backup.md",
+      "sha8": "be423d4c"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/janitor.md",
+      "title": "janitor",
+      "path": "docs/agents/sessions/janitor.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/janitor.md",
+      "sha8": "3482606c"
+    },
+    {
+      "id": "manufacturing-ai-week5/docs/agents/sessions/README.md",
+      "title": "README",
+      "path": "docs/agents/sessions/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": "docs/agents/sessions/README.md",
+      "sha8": "1870a220"
     }
   ],
   "docs": [

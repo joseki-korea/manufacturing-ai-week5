@@ -10,7 +10,7 @@ updated: 2026-11-07
 source_of_truth: README.md
 ---
 - **GitHub Repository**: https://github.com/joseki-korea/manufacturing-ai-week5
-- **Google Drive Artifacts**: `Orca 산출물/프로젝트/manufacturing-ai-week5/` (pending upload)
+- **Google Drive Artifacts**: https://drive.google.com/drive/folders/1LJ8G0sUH5XHLmWcF1TxsdFJ-7Kr19OVq
 # 충북대학교 제조 AI 실제 (8884023-01) - 5주차 실습 및 과제
 
 - **작성자**: 2026154001 정용석
@@ -73,3 +73,7 @@ source_of_truth: README.md
 | 핸드오프 | [handoffs/README.md](handoffs/README.md) | 에이전트 세션 인계 노트 |
 | 에셋 | [assets/](assets/) | images · src · components · binaries |
 | RAG 목록 | [rag-manifest.json](rag-manifest.json) | 검색 대상 문서 목록 |
+
+## Running the notebooks
+
+Open the root notebooks in a compatible Jupyter environment and install their imported dependencies. Training downloads MNIST; full execution has not been verified.

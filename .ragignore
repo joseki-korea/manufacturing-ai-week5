@@ -1,0 +1,10 @@
+.git/
+node_modules/
+.venv/
+dist/
+build/
+out/
+*.png
+*.jpg
+*.pdf
+.env*
