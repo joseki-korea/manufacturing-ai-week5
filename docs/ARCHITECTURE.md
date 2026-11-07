@@ -24,6 +24,7 @@ source_of_truth: repo tree
 ./2026154001_정용석_lab5_4_diffusion_model.ipynb
 ./README.md
 ./assets
+./assets/README.md
 ./assets/binaries
 ./assets/binaries/README.md
 ./assets/binaries/drive-manifest.json
@@ -36,6 +37,7 @@ source_of_truth: repo tree
 ./assets/src/README.md
 ./docs
 ./docs/ARCHITECTURE.md
+./docs/README.md
 ./docs/ROLES.md
 ./docs/RULES.md
 ./handoffs

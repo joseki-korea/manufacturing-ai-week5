@@ -20,6 +20,17 @@
       "sha8": "28c7f2d4"
     },
     {
+      "path": "assets/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "overview"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "41907ebb"
+    },
+    {
       "path": "assets/binaries/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
       "doc_type": "asset-index",
@@ -67,7 +78,20 @@
         "doc"
       ],
       "updated": "2026-11-07",
-      "sha8": "c6274b8d"
+      "sha8": "cedcfc9b"
+    },
+    {
+      "path": "docs/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/docs/README",
+      "doc_type": "readme",
+      "tags": [
+        "docs",
+        "architecture",
+        "rules",
+        "roles"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "fe11acdf"
     },
     {
       "path": "docs/ROLES.md",
