@@ -1,0 +1,11 @@
+.git/
+node_modules/
+.venv/
+dist/
+build/
+vendor/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+.env*
