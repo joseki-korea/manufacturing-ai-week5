@@ -4,7 +4,7 @@
   "repo": "joseki-korea/manufacturing-ai-week5",
   "updated": "2026-11-08",
   "device_scope": "all",
-  "total_documents": 60,
+  "total_documents": 61,
   "documents": [
     {
       "id": "manufacturing-ai-week5/AGENTS.md",
@@ -945,6 +945,22 @@
       "updated": "2026-11-08",
       "source_of_truth": "docs/agents/sessions/README.md",
       "sha8": "1870a220"
+    },
+    {
+      "id": "manufacturing-ai-week5/.github/README.md",
+      "title": ".github folder",
+      "path": ".github/README.md",
+      "repo": "manufacturing-ai-week5",
+      "device_scope": "all",
+      "doc_type": "documentation",
+      "tags": [
+        "documentation",
+        "folder"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-08",
+      "source_of_truth": ".github/README.md",
+      "sha8": "0452656d"
     }
   ],
   "docs": [
