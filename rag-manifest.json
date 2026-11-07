@@ -442,8 +442,8 @@
       "sha8": "50c4ec30"
     },
     {
-      "path": "docs/glossary.md",
-      "id": "manufacturing-ai-week5/docs/glossary.md",
+      "path": "docs/references/glossary.md",
+      "id": "manufacturing-ai-week5/docs/references/glossary.md",
       "doc_type": "documentation",
       "tags": [
         "repository",

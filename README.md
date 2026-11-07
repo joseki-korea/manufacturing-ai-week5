@@ -33,10 +33,10 @@ Drive: https://drive.google.com/drive/folders/1LJ8G0sUH5XHLmWcF1TxsdFJ-7Kr19OVq
 
 | 번호 | 실습 노트북 | 핵심 내용 및 실습 과제 |
 |:---:|:---|:---|
-| **Lab 5-1** | [lab5_1_autoencoder.ipynb](./2026154001_정용석_lab5_1_autoencoder.ipynb) | Autoencoder 기초 잠재공간(Latent Space) t-SNE 시각화, Denoising Autoencoder(DAE) 노이즈 제거, Reconstruction Error 기반 비지도 이상치 탐지(Anomaly Detection) |
-| **Lab 5-2** | [lab5_2_vae.ipynb](./2026154001_정용석_lab5_2_vae.ipynb) | Variational Autoencoder(VAE) 재매개변수화 트릭(Reparameterization Trick), ELBO 손실함수(Reconstruction + KL Divergence), 2D 잠재공간 매니폴드 연속 생성 |
-| **Lab 5-3** | [lab5_3_gan.ipynb](./2026154001_정용석_lab5_3_gan.ipynb) | GAN(Generative Adversarial Network) Generator vs Discriminator 적대적 학습 구조, Minimax Game, MNIST 손글씨 신규 이미지 생성 |
-| **Lab 5-4** | [lab5_4_diffusion_model.ipynb](./2026154001_정용석_lab5_4_diffusion_model.ipynb) | DDPM(Denoising Diffusion Probabilistic Model) 순방향 가우시안 노이즈 확산 및 역방향 노이즈 예측 U-Net 복원 샘플링, 생성 모델 4대 패밀리 비교 |
+| **Lab 5-1** | [lab5_1_autoencoder.ipynb](./notebooks/lab5-1-autoencoder.ipynb) | Autoencoder 기초 잠재공간(Latent Space) t-SNE 시각화, Denoising Autoencoder(DAE) 노이즈 제거, Reconstruction Error 기반 비지도 이상치 탐지(Anomaly Detection) |
+| **Lab 5-2** | [lab5_2_vae.ipynb](./notebooks/lab5-2-vae.ipynb) | Variational Autoencoder(VAE) 재매개변수화 트릭(Reparameterization Trick), ELBO 손실함수(Reconstruction + KL Divergence), 2D 잠재공간 매니폴드 연속 생성 |
+| **Lab 5-3** | [lab5_3_gan.ipynb](./notebooks/lab5-3-gan.ipynb) | GAN(Generative Adversarial Network) Generator vs Discriminator 적대적 학습 구조, Minimax Game, MNIST 손글씨 신규 이미지 생성 |
+| **Lab 5-4** | [lab5_4_diffusion_model.ipynb](./notebooks/lab5-4-diffusion-model.ipynb) | DDPM(Denoising Diffusion Probabilistic Model) 순방향 가우시안 노이즈 확산 및 역방향 노이즈 예측 U-Net 복원 샘플링, 생성 모델 4대 패밀리 비교 |
 
 ---
 
