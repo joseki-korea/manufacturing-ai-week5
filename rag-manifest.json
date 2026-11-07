@@ -4,140 +4,169 @@
   "updated": "2026-11-07",
   "docs": [
     {
+      "path": "assets/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/README",
+      "title": "에셋 디렉터리 (assets/) — 개요",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "overview"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "41907ebb"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
+      "title": "바이너리 에셋",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "binaries"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "b5311579"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
+      "title": "컴포넌트 에셋",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "components"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "a56303e4"
+    },
+    {
+      "path": "assets/images/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
+      "title": "이미지 에셋",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "images"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "675a7537"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
+      "title": "소스코드 에셋",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "src"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "c19ef08c"
+    },
+    {
+      "path": "assets/videos/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/videos/README",
+      "title": "비디오 에셋",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "videos",
+        "drive"
+      ],
+      "status": "DRAFT",
+      "updated": "2026-11-07",
+      "sha8": "8c0d6912"
+    },
+    {
       "path": "docs/ARCHITECTURE.md",
       "id": "manufacturing-ai-week5/docs/ARCHITECTURE.md",
+      "title": "Repository Architecture and Current->Target Migration Plan",
       "doc_type": "architecture",
       "tags": [
         "architecture",
-        "manufacturing-ai-week5"
+        "current-target-tree",
+        "migration-plan"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
-      "sha8": "9f97d611"
+      "sha8": "107834ee"
     },
     {
       "path": "docs/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/README",
+      "title": "문서 모음 (docs/) — 개요",
       "doc_type": "readme",
       "tags": [
-        "readme",
-        "manufacturing-ai-week5"
+        "docs",
+        "architecture",
+        "rules",
+        "roles"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "fe11acdf"
     },
     {
       "path": "docs/ROLES.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/ROLES",
+      "title": "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 세션 역할",
       "doc_type": "roles",
       "tags": [
         "roles",
-        "manufacturing-ai-week5"
+        "sessions"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "adf2e8c7"
     },
     {
       "path": "docs/RULES.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/RULES",
+      "title": "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 규칙",
       "doc_type": "rules",
       "tags": [
         "rules",
-        "manufacturing-ai-week5"
+        "safety"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "8dd8220e"
     },
     {
-      "path": "assets/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "asset-index",
-        "manufacturing-ai-week5"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "41907ebb"
-    },
-    {
-      "path": "assets/images/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "asset-index",
-        "manufacturing-ai-week5"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "675a7537"
-    },
-    {
-      "path": "assets/components/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "asset-index",
-        "manufacturing-ai-week5"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "a56303e4"
-    },
-    {
-      "path": "assets/videos/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/videos/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "asset-index",
-        "manufacturing-ai-week5"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "8c0d6912"
-    },
-    {
-      "path": "assets/binaries/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "asset-index",
-        "manufacturing-ai-week5"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "b5311579"
-    },
-    {
-      "path": "assets/src/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "asset-index",
-        "manufacturing-ai-week5"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "c19ef08c"
-    },
-    {
       "path": "handoffs/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/handoffs/README",
+      "title": "핸드오프 폴더 안내",
       "doc_type": "handoff",
       "tags": [
         "handoff",
-        "manufacturing-ai-week5"
+        "sessions"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "2d22c680"
     },
     {
       "path": "handoffs/_TEMPLATE.md",
       "id": "joseki-korea-manufacturing-ai-week5/handoffs/TEMPLATE",
+      "title": "핸드오프 — TEMPLATE",
       "doc_type": "handoff",
       "tags": [
         "handoff",
-        "manufacturing-ai-week5"
+        "template"
       ],
+      "status": "DRAFT",
       "updated": "2026-11-07",
       "sha8": "ad493e61"
     }
   ],
   "excluded_paths": [
     "README.md (PII-pre-existing)",
+    "*.ipynb (PII-pre-existing)",
     "assets/images/*",
     "assets/binaries/*",
     "assets/videos/*",
@@ -147,7 +176,6 @@
     "dist",
     "build",
     ".cache",
-    "__pycache__",
-    "*.ipynb"
+    "__pycache__"
   ]
 }
