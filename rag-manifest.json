@@ -1,94 +1,26 @@
 {
-  "schema_version": "0.1-DRAFT",
-  "repo": "joseki-korea-manufacturing-ai-week5",
+  "manifest_version": "1.0.0",
+  "repo": "joseki-korea/manufacturing-ai-week5",
   "updated": "2026-11-07",
   "docs": [
     {
-      "path": "README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/README.md",
-      "doc_type": "readme",
-      "tags": [
-        "manufacturing-ai",
-        "unsupervised-learning",
-        "generative-models",
-        "autoencoder",
-        "vae",
-        "gan",
-        "diffusion"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "28c7f2d4"
-    },
-    {
-      "path": "assets/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "assets",
-        "overview"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "41907ebb"
-    },
-    {
-      "path": "assets/binaries/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "doc"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "71a6c421"
-    },
-    {
-      "path": "assets/components/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "doc"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "17a0481c"
-    },
-    {
-      "path": "assets/images/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "doc"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "e9079936"
-    },
-    {
-      "path": "assets/src/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
-      "doc_type": "asset-index",
-      "tags": [
-        "doc"
-      ],
-      "updated": "2026-11-07",
-      "sha8": "f32e3ce4"
-    },
-    {
       "path": "docs/ARCHITECTURE.md",
-      "id": "joseki-korea-manufacturing-ai-week5/docs/ARCHITECTURE",
+      "id": "manufacturing-ai-week5/docs/ARCHITECTURE.md",
       "doc_type": "architecture",
       "tags": [
-        "doc"
+        "architecture",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
-      "sha8": "f779cbca"
+      "sha8": "9f97d611"
     },
     {
       "path": "docs/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/README",
       "doc_type": "readme",
       "tags": [
-        "docs",
-        "architecture",
-        "rules",
-        "roles"
+        "readme",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
       "sha8": "fe11acdf"
@@ -98,63 +30,124 @@
       "id": "joseki-korea-manufacturing-ai-week5/docs/ROLES",
       "doc_type": "roles",
       "tags": [
-        "doc"
+        "roles",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
-      "sha8": "45419fee"
+      "sha8": "adf2e8c7"
     },
     {
       "path": "docs/RULES.md",
       "id": "joseki-korea-manufacturing-ai-week5/docs/RULES",
       "doc_type": "rules",
       "tags": [
-        "doc"
+        "rules",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
-      "sha8": "16704b7e"
+      "sha8": "8dd8220e"
     },
     {
-      "path": "handoffs/README.md",
-      "id": "joseki-korea-manufacturing-ai-week5/handoffs/README",
-      "doc_type": "handoff",
+      "path": "assets/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/README",
+      "doc_type": "asset-index",
       "tags": [
-        "doc"
+        "asset-index",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
-      "sha8": "981483d5"
+      "sha8": "41907ebb"
     },
     {
-      "path": "handoffs/_TEMPLATE.md",
-      "id": "joseki-korea-manufacturing-ai-week5/handoffs/TEMPLATE",
-      "doc_type": "handoff",
+      "path": "assets/images/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/images/README",
+      "doc_type": "asset-index",
       "tags": [
-        "doc"
+        "asset-index",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
-      "sha8": "ad493e61"
+      "sha8": "675a7537"
+    },
+    {
+      "path": "assets/components/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/components/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "manufacturing-ai-week5"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "a56303e4"
     },
     {
       "path": "assets/videos/README.md",
       "id": "joseki-korea-manufacturing-ai-week5/assets/videos/README",
       "doc_type": "asset-index",
       "tags": [
-        "assets",
-        "videos",
-        "drive"
+        "asset-index",
+        "manufacturing-ai-week5"
       ],
       "updated": "2026-11-07",
       "sha8": "8c0d6912"
+    },
+    {
+      "path": "assets/binaries/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/binaries/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "manufacturing-ai-week5"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "b5311579"
+    },
+    {
+      "path": "assets/src/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/src/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "asset-index",
+        "manufacturing-ai-week5"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "c19ef08c"
+    },
+    {
+      "path": "handoffs/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/handoffs/README",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "manufacturing-ai-week5"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "2d22c680"
+    },
+    {
+      "path": "handoffs/_TEMPLATE.md",
+      "id": "joseki-korea-manufacturing-ai-week5/handoffs/TEMPLATE",
+      "doc_type": "handoff",
+      "tags": [
+        "handoff",
+        "manufacturing-ai-week5"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "ad493e61"
     }
   ],
-  "excluded": [
-    "assets/binaries/**",
-    "assets/images/**",
-    "**/*.env",
-    "**/secrets/**",
-    "*.ipynb",
-    "node_modules/**",
-    "dist/**",
-    "build/**",
-    "assets/videos/**"
+  "excluded_paths": [
+    "README.md (PII-pre-existing)",
+    "assets/images/*",
+    "assets/binaries/*",
+    "assets/videos/*",
+    ".env*",
+    "node_modules",
+    ".git",
+    "dist",
+    "build",
+    ".cache",
+    "__pycache__",
+    "*.ipynb"
   ]
 }

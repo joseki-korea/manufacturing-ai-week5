@@ -1,105 +1,85 @@
 ---
-id: joseki-korea-manufacturing-ai-week5/docs/ARCHITECTURE
-title: 충북대학교 제조 AI 실제 5주차 실습 및 과제 — 폴더 구조
-repo: joseki-korea-manufacturing-ai-week5
+id: "manufacturing-ai-week5/docs/ARCHITECTURE.md"
+title: "Repository Architecture and Current->Target Migration Plan"
+repo: joseki-korea/manufacturing-ai-week5
 device_scope: all
 doc_type: architecture
-tags: [architecture, folders]
+tags:
+  - architecture
+  - current-target-tree
+  - migration-plan
 status: DRAFT
-updated: 2026-11-07
-source_of_truth: repo tree
+updated: '2026-11-07'
+source_of_truth: "docs/ARCHITECTURE.md"
 ---
 
-# 폴더 구조 및 아키텍처 설계 (Addendum 4)
+# Repository Architecture — manufacturing-ai-week5
 
-## 1. 현재 구조 (CURRENT Tree - default branch: main)
+본 문서는 `joseki-korea/manufacturing-ai-week5` 레포지토리의 아키텍처 폴더 트리 설계 및 Current→Target 구조를 정의합니다.
 
-PR 적용 전 `origin/main` 기준 파일 트리:
+## 1. 프로젝트 개요
+- **레포지토리**: `joseki-korea/manufacturing-ai-week5`
+- **기본 브랜치**: `main`
+- **작업 브랜치**: `repo-standard-20261107`
+- **목적**: 표준화된 RAG 및 멀티에이전트 협업 체계 수립 (REPO-STANDARD-ALL-20261107)
 
-```text
-2026154001_정용석_lab5_1_autoencoder.ipynb
-2026154001_정용석_lab5_2_vae.ipynb
-2026154001_정용석_lab5_3_gan.ipynb
-2026154001_정용석_lab5_4_diffusion_model.ipynb
-README.md
-```
+## 2. CURRENT 트리 (기본 브랜치 `origin/main`, depth ≤ 3)
+기본 브랜치 기준 기존 루트 파일 및 폴더 구조:
 
-## 2. 목표 구조 (TARGET Tree)
+### 2.1. 루트 추적 파일 (Tracked Root Files)
+- `2026154001_정용석_lab5_1_autoencoder.ipynb`
+- `2026154001_정용석_lab5_2_vae.ipynb`
+- `2026154001_정용석_lab5_3_gan.ipynb`
+- `2026154001_정용석_lab5_4_diffusion_model.ipynb`
+- `README.md`
 
-표준화(repo-standard + RAG + Addendum 2·3) 적용 후 목표 파일 트리:
+### 2.2. 디렉토리 구조 (Directory Tree)
+- *(루트 레벨 디렉토리 없음)*
 
-```text
-.
-./2026154001_정용석_lab5_1_autoencoder.ipynb
-./2026154001_정용석_lab5_2_vae.ipynb
-./2026154001_정용석_lab5_3_gan.ipynb
-./2026154001_정용석_lab5_4_diffusion_model.ipynb
-./README.md
-./assets
-./assets/README.md
-./assets/binaries
-./assets/binaries/README.md
-./assets/binaries/drive-manifest.json
-./assets/components
-./assets/components/README.md
-./assets/images
-./assets/images/README.md
-./assets/images/drive-manifest.json
-./assets/src
-./assets/src/README.md
-./assets/videos
-./assets/videos/README.md
-./assets/videos/drive-manifest.json
-./assets/src
-./assets/src/README.md
-./assets/videos
-./assets/videos/README.md
-./assets/videos/drive-manifest.json/README.md
-./docs
-./docs/ARCHITECTURE.md
-./docs/README.md
-./docs/ROLES.md
-./docs/RULES.md
-./handoffs
-./handoffs/README.md
-./handoffs/_TEMPLATE.md
-./rag-manifest.json
-```
+## 3. TARGET 트리 (목표 아키텍처 폴더 구조, depth ≤ 3)
+Repo Standard 적용 후 목표 폴더 구조 (추적 대상 파일 기준, `__pycache__` 등 임시 파일 전면 배제):
 
-## 3. 현재→목표 매핑 테이블 (Current → Target Mapping Table)
+### 3.1. 루트 추적 및 설정 파일 (Tracked Root & App Config Files)
+- `.gitignore`
+- `2026154001_정용석_lab5_1_autoencoder.ipynb`
+- `2026154001_정용석_lab5_2_vae.ipynb`
+- `2026154001_정용석_lab5_3_gan.ipynb`
+- `2026154001_정용석_lab5_4_diffusion_model.ipynb`
+- `README.md`
+- `rag-manifest.json`
 
-| 현재 경로 (`origin/main`) | 목표 경로 | 변경 사항 및 목적 | 상태 |
-|---|---|---|---|
-| `2026154001_정용석_lab5_1_autoencoder.ipynb` | `2026154001_정용석_lab5_1_autoencoder.ipynb` | 기존 원본 유지 (코드/빌드 안전 보존) | 유지 (PASS) |
-| `2026154001_정용석_lab5_2_vae.ipynb` | `2026154001_정용석_lab5_2_vae.ipynb` | 기존 원본 유지 (코드/빌드 안전 보존) | 유지 (PASS) |
-| `2026154001_정용석_lab5_3_gan.ipynb` | `2026154001_정용석_lab5_3_gan.ipynb` | 기존 원본 유지 (코드/빌드 안전 보존) | 유지 (PASS) |
-| `2026154001_정용석_lab5_4_diffusion_model.ipynb` | `2026154001_정용석_lab5_4_diffusion_model.ipynb` | 기존 원본 유지 (코드/빌드 안전 보존) | 유지 (PASS) |
-| `README.md` | `README.md` | 기존 원본 유지 (코드/빌드 안전 보존) | 유지 (PASS) |
-| `README.md` | `README.md` | 표준 프론트매터 및 규칙 링크 추가 보강 | 완료 (PASS) |
-| `(신규)` | `docs/` | `RULES.md`, `ROLES.md`, `ARCHITECTURE.md` 표준화 | 완료 (PASS) |
-| `(신규)` | `assets/` | `images/`, `binaries/`, `components/`, `src/` 분류 | 완료 (PASS) |
-| `(신규)` | `handoffs/` | 세션 인계 `README.md` 및 `_TEMPLATE.md` 규격화 | 완료 (PASS) |
-| `(신규)` | `rag-manifest.json` | 검색 대상 문서 sha8 색인 및 제외 규칙 정의 | 완료 (PASS) |
+### 3.2. 디렉토리 구조 (Directory Tree)
+- `assets/`
+- `assets/binaries/`
+- `assets/components/`
+- `assets/images/`
+- `assets/src/`
+- `assets/videos/`
+- `docs/`
+- `handoffs/`
 
-> **안내**: 본 PR에서는 기존 소스코드 및 참조 파일의 임의 이동/삭제를 일체 수행하지 않았으며, 모든 파일은 '기존 위치 유지' 상태입니다. 향후 파일 재배치는 본 설계에 대한 리뷰어 PASS 이후 진행됩니다 ('pending design PASS').
+## 4. Current → Target 매핑 테이블
+기존 위치에서 목표 위치로의 매핑 및 상태:
 
-## 4. 이동 안전성 검증 (Move-Safety Check)
+| 원본 경로 (Current) | 목표 경로 (Target) | 진행 상태 |
+|---|---|---|
+| *(모든 기존 소스/리소스 파일)* | *(기존 위치 100% 동일 유지)* | **원위치 유지** (설계 검토 PASS 전 파일 이동 전면 중단 원칙 준수) |
 
-- **임포트/참조 검사**: `grep -rn "import\|require\|from "` 실행 결과, 본 PR로 추가된 표준 문서 외 기존 소스 코드 및 설정 파일의 참조 경로는 100% 불변으로 보존됨.
-- **빌드/CI 설정 보존**: `package.json`, `wrangler.toml`, `Makefile` 등 빌드/배포 설정 파일 내 진입점 경로가 일체 변경되지 않음을 검증함.
-- **바이너리/이미지 자산**: 기존 커밋된 바이너리/이미지 파일은 이동 없이 원본 위치를 유지하며, 신규 자산에 대해서만 Google Drive(`Orca 자산/manufacturing-ai-week5/`) 연동 매니페스트를 적용함.
+> **안내**: 설계 검토(Reviewer PASS) 완료 전 사전 파일 이동이 금지됨에 따라, 이전에 임시 스테이징되었던 모든 기존 파일은 `git mv back`을 통해 원상 복구(Original Location)되었습니다.
 
-## 5. 단계별 마이그레이션 및 롤백 계획 (Migration Steps & Rollback)
+## 5. 이동 안정성 검증 (Move-Safety Check & Grep Evidence)
+- **파일 이동 상태**: 현재 브랜치에서 이동된 기존 소스코드가 일체 존재하지 않음 (`0 moves active`).
+- **런타임 의존성**: 모든 기존 파일이 원래 위치에 보존되어 있으므로 `import`, `require`, 빌드 설정(CI/CD) 영향도 0% (완전 무결).
 
-### 마이그레이션 단계
-1. **1단계 (완료)**: 표준 문서(`docs/`, `assets/`, `handoffs/`) 및 `rag-manifest.json` 생성.
-2. **2단계 (완료)**: Google Drive 연동 매니페스트(`assets/images/drive-manifest.json`, `assets/binaries/drive-manifest.json`) 추가.
-3. **3단계 (완료)**: 하위 디렉터리별 `README.md` 보강 및 아키텍처 현재→목표 설계서 작성.
-4. **4단계 (대기)**: 설계서 리뷰어 PASS 후 필요한 파일 이동 검토.
+## 6. 마이그레이션 절차 및 롤백 계획 (Migration Steps & Rollback)
+### 6.1. 마이그레이션 실행 절차
+1. **설계 사전 검토**: 본 아키텍처 구조에 대해 리뷰어 승인(PASS)을 획득합니다.
+2. **단독 git mv 수행**: 승인된 대상에 한해 비즈니스 로직 수정 없이 `git mv` 단독 커밋으로 수행합니다.
+3. **참조 갱신**: 상대 경로 import 및 README 링크를 동기화합니다.
+4. **빌드/테스트 검증**: 단위 테스트 및 빌드 스크립트를 실행하여 무결성을 최종 검증합니다.
 
-### 롤백 계획 (Rollback Steps)
-- 본 PR로 추가된 표준 문서 및 설정에 대해 롤백이 필요한 경우 아래 명령으로 즉시 복구 가능:
-```bash
-git checkout origin/main -- .
-git clean -fd
-```
+### 6.2. 롤백 계획
+현재 활성화된 파일 이동이 없으므로(`git diff -M --summary origin/main` 상 rename 0건), 추가적인 롤백 조치가 불필요합니다.
+
+## 7. 설계 승인 원칙 (Design PASS Rule)
+CEO 지침에 따라 본 설계 문서가 리뷰어의 최종 PASS 승인을 받기 전까지는 **일체의 파일 이동(`git mv`)이 엄격히 금지**됩니다.

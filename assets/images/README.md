@@ -1,6 +1,6 @@
 ---
 id: joseki-korea-manufacturing-ai-week5/assets/images/README
-title: 이미지 에셋
+title: "이미지 에셋"
 repo: joseki-korea-manufacturing-ai-week5
 device_scope: all
 doc_type: asset-index

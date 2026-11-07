@@ -1,6 +1,6 @@
 ---
 id: joseki-korea-manufacturing-ai-week5/docs/ROLES
-title: 충북대학교 제조 AI 실제 5주차 실습 및 과제 — 세션 역할
+title: "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 세션 역할"
 repo: joseki-korea-manufacturing-ai-week5
 device_scope: all
 doc_type: roles

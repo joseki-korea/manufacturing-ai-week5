@@ -1,6 +1,6 @@
 ---
 id: joseki-korea-manufacturing-ai-week5/assets/src/README
-title: 소스코드 에셋
+title: "소스코드 에셋"
 repo: joseki-korea-manufacturing-ai-week5
 device_scope: all
 doc_type: asset-index

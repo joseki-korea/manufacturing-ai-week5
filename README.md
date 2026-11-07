@@ -1,6 +1,6 @@
 ---
 id: joseki-korea-manufacturing-ai-week5/README.md
-title: 충북대학교 제조 AI 실제 5주차 실습 및 과제 — 프로젝트 개요
+title: "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 프로젝트 개요"
 repo: joseki-korea-manufacturing-ai-week5
 device_scope: all
 doc_type: readme

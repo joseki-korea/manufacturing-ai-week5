@@ -1,6 +1,6 @@
 ---
 id: joseki-korea-manufacturing-ai-week5/assets/components/README
-title: 컴포넌트 에셋
+title: "컴포넌트 에셋"
 repo: joseki-korea-manufacturing-ai-week5
 device_scope: all
 doc_type: asset-index
