@@ -25,13 +25,23 @@ source_of_truth: repo tree
 ./README.md
 ./assets
 ./assets/binaries
+./assets/binaries/README.md
+./assets/binaries/drive-manifest.json
 ./assets/components
+./assets/components/README.md
 ./assets/images
+./assets/images/README.md
+./assets/images/drive-manifest.json
 ./assets/src
+./assets/src/README.md
 ./docs
+./docs/ARCHITECTURE.md
 ./docs/ROLES.md
 ./docs/RULES.md
 ./handoffs
+./handoffs/README.md
+./handoffs/_TEMPLATE.md
+./rag-manifest.json
 ```
 
 ## 표준 폴더와 목적

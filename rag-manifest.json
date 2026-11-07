@@ -27,7 +27,7 @@
         "doc"
       ],
       "updated": "2026-11-07",
-      "sha8": "c105bf4b"
+      "sha8": "71a6c421"
     },
     {
       "path": "assets/components/README.md",
@@ -47,7 +47,7 @@
         "doc"
       ],
       "updated": "2026-11-07",
-      "sha8": "2b9c1c16"
+      "sha8": "e9079936"
     },
     {
       "path": "assets/src/README.md",
@@ -67,7 +67,7 @@
         "doc"
       ],
       "updated": "2026-11-07",
-      "sha8": "86174062"
+      "sha8": "c6274b8d"
     },
     {
       "path": "docs/ROLES.md",
@@ -107,11 +107,12 @@
         "doc"
       ],
       "updated": "2026-11-07",
-      "sha8": "a3f919c5"
+      "sha8": "ad493e61"
     }
   ],
   "excluded": [
     "assets/binaries/**",
+    "assets/images/**",
     "**/*.env",
     "**/secrets/**",
     "*.ipynb",

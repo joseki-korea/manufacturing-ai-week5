@@ -1,8 +1,14 @@
 
 
 # repo-standard: append to existing .gitignore (do not replace)
+# repo-standard: assets ignore (Addendum 2)
+assets/images/*
+!assets/images/README.md
+!assets/images/drive-manifest.json
+!assets/images/*.md
 assets/binaries/*
 !assets/binaries/README.md
+!assets/binaries/drive-manifest.json
 !assets/binaries/*.md
 .env
 .env.*
