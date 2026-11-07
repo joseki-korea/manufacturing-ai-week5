@@ -78,7 +78,7 @@
         "doc"
       ],
       "updated": "2026-11-07",
-      "sha8": "422b7c56"
+      "sha8": "f779cbca"
     },
     {
       "path": "docs/README.md",
@@ -132,6 +132,18 @@
       ],
       "updated": "2026-11-07",
       "sha8": "ad493e61"
+    },
+    {
+      "path": "assets/videos/README.md",
+      "id": "joseki-korea-manufacturing-ai-week5/assets/videos/README",
+      "doc_type": "asset-index",
+      "tags": [
+        "assets",
+        "videos",
+        "drive"
+      ],
+      "updated": "2026-11-07",
+      "sha8": "8c0d6912"
     }
   ],
   "excluded": [
@@ -142,6 +154,7 @@
     "*.ipynb",
     "node_modules/**",
     "dist/**",
-    "build/**"
+    "build/**",
+    "assets/videos/**"
   ]
 }

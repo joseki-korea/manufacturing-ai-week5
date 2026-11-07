@@ -16,3 +16,14 @@ assets/binaries/*
 *.key
 **/secrets/
 *.secret
+
+# repo-standard: video assets ignore (Addendum 5)
+assets/videos/*
+!assets/videos/README.md
+!assets/videos/drive-manifest.json
+!assets/videos/*.md
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
