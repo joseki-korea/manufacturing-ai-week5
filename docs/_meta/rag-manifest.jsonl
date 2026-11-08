@@ -91,25 +91,28 @@
 {"heading": "Query", "id": "9415279af2688dcb", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "d201efb0", "tags": ["wiki"]}
 {"heading": "Lint", "id": "db59004bc4e7b7cd", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "53a9cd38", "tags": ["wiki"]}
 {"heading": "(preamble)", "id": "1fa3afe30995a940", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "8b61820b", "tags": ["wiki"]}
-{"heading": "위키 목록", "id": "2831000ba72cc0da", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "a74aaec4", "tags": ["wiki"]}
+{"heading": "위키 목록", "id": "2831000ba72cc0da", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "61fc9bd1", "tags": ["wiki"]}
 {"heading": "(preamble)", "id": "0fd445a1182e0820", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "0c8a9910", "tags": ["wiki"]}
 {"heading": "수집 기록", "id": "00eb27a62e2466eb", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "36e146e2", "tags": ["wiki"]}
-{"heading": "[2026-11-08] ingest | 저장소 코드와 문서", "id": "31ca2fa567cd40dd", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "21c3237f", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "a2791ec6f4512741", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "592bce35", "tags": ["wiki"]}
-{"heading": "자주 묻는 질문", "id": "571af18ff3e4d1bc", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "7f72c108", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "a45550c33588b417", "lang": "ko", "path": "docs/wiki/pages/overview.md", "sensitivity": "internal", "sha8": "59234955", "tags": ["wiki"]}
+{"heading": "[2026-11-08] ingest | 저장소 코드와 문서", "id": "31ca2fa567cd40dd", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "600f28f1", "tags": ["wiki"]}
+{"heading": "[2026-11-08] ingest | 위키 설명 및 검증 정리", "id": "b68168a13d4ce258", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "8f69cdce", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "a2791ec6f4512741", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "7d7f6477", "tags": ["wiki"]}
+{"heading": "자주 묻는 질문", "id": "571af18ff3e4d1bc", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "8db7531f", "tags": ["wiki"]}
+{"heading": "실행 가능한 앱이 있나요?", "id": "2e092ca6e8729f21", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "7c3ae6bb", "tags": ["wiki"]}
+{"heading": "전체 실습 실행은 검증되었나요?", "id": "755958d4d38234a8", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "ea82bd26", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "a45550c33588b417", "lang": "ko", "path": "docs/wiki/pages/overview.md", "sensitivity": "internal", "sha8": "77233e06", "tags": ["wiki"]}
 {"heading": "실습 저장소 개요", "id": "65a33c0fee67c584", "lang": "ko", "path": "docs/wiki/pages/overview.md", "sensitivity": "internal", "sha8": "7d9b2a07", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "ea3b690a6feb7466", "lang": "ko", "path": "docs/wiki/pages/concepts/reconstruction-error.md", "sensitivity": "internal", "sha8": "a294092c", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "ea3b690a6feb7466", "lang": "ko", "path": "docs/wiki/pages/concepts/reconstruction-error.md", "sensitivity": "internal", "sha8": "92b86515", "tags": ["wiki"]}
 {"heading": "재구성 오차", "id": "d51359c5bba84181", "lang": "ko", "path": "docs/wiki/pages/concepts/reconstruction-error.md", "sensitivity": "internal", "sha8": "386c05ee", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "6806b784e6b928b0", "lang": "ko", "path": "docs/wiki/pages/howto/notebooks.md", "sensitivity": "internal", "sha8": "b473116f", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "6806b784e6b928b0", "lang": "ko", "path": "docs/wiki/pages/howto/notebooks.md", "sensitivity": "internal", "sha8": "b4e2d3b5", "tags": ["wiki"]}
 {"heading": "노트북 실행", "id": "01077f8320923b4a", "lang": "ko", "path": "docs/wiki/pages/howto/notebooks.md", "sensitivity": "internal", "sha8": "c3c5aa31", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "69c197da5c4143ff", "lang": "ko", "path": "docs/wiki/pages/modules/autoencoder.md", "sensitivity": "internal", "sha8": "4ab0b09d", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "69c197da5c4143ff", "lang": "ko", "path": "docs/wiki/pages/modules/autoencoder.md", "sensitivity": "internal", "sha8": "cbc595ef", "tags": ["wiki"]}
 {"heading": "오토인코더 실습", "id": "1ca380ec9e490f0a", "lang": "ko", "path": "docs/wiki/pages/modules/autoencoder.md", "sensitivity": "internal", "sha8": "92603169", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "4e2f90b8b86f9854", "lang": "ko", "path": "docs/wiki/pages/modules/diffusion.md", "sensitivity": "internal", "sha8": "a95b1f21", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "4e2f90b8b86f9854", "lang": "ko", "path": "docs/wiki/pages/modules/diffusion.md", "sensitivity": "internal", "sha8": "a1d1e478", "tags": ["wiki"]}
 {"heading": "확산 모델 실습", "id": "3204a4645e355387", "lang": "ko", "path": "docs/wiki/pages/modules/diffusion.md", "sensitivity": "internal", "sha8": "12bbf881", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "b93c795cc080f0df", "lang": "ko", "path": "docs/wiki/pages/modules/gan.md", "sensitivity": "internal", "sha8": "61f3a550", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "b93c795cc080f0df", "lang": "ko", "path": "docs/wiki/pages/modules/gan.md", "sensitivity": "internal", "sha8": "25891beb", "tags": ["wiki"]}
 {"heading": "GAN 실습", "id": "65c75114c7160750", "lang": "ko", "path": "docs/wiki/pages/modules/gan.md", "sensitivity": "internal", "sha8": "92626f9d", "tags": ["wiki"]}
-{"heading": "(preamble)", "id": "03f7e9d0a83fb227", "lang": "ko", "path": "docs/wiki/pages/modules/vae.md", "sensitivity": "internal", "sha8": "18959a1c", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "03f7e9d0a83fb227", "lang": "ko", "path": "docs/wiki/pages/modules/vae.md", "sensitivity": "internal", "sha8": "3271c5e7", "tags": ["wiki"]}
 {"heading": "변이형 오토인코더 실습", "id": "b910c23f42706aef", "lang": "ko", "path": "docs/wiki/pages/modules/vae.md", "sensitivity": "internal", "sha8": "ecb5fab3", "tags": ["wiki"]}
 {"heading": "(preamble)", "id": "f80d3e1ce061f1b9", "lang": "en", "path": "experiments/README.md", "sensitivity": "internal", "sha8": "42f2b265", "tags": ["repository", "documentation"]}
 {"heading": "experiments folder", "id": "b7ca91e1919cddff", "lang": "en", "path": "experiments/README.md", "sensitivity": "internal", "sha8": "e09bcd9f", "tags": ["repository", "documentation"]}

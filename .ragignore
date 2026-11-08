@@ -18,3 +18,9 @@ vendor/
 
 # Root README contains personal details
 /README.md
+
+# Sensitive local configuration
+.env*
+*.env.*
+*.p12
+*.pfx

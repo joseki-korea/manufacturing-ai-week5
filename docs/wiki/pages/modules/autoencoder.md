@@ -1,7 +1,7 @@
 ---
 id: wiki/modules/autoencoder
 title: "오토인코더 실습"
-summary: "오토인코더 실습"
+summary: "오토인코더 노트북은 잠재 공간 시각화, 잡음 제거와 재구성 오차 기반 이상치 탐지를 다룬다."
 domain: repository
 tags: [wiki]
 owner: repository-maintainers

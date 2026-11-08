@@ -1,7 +1,7 @@
 ---
 id: wiki/concepts/reconstruction-error
 title: "재구성 오차"
-summary: "재구성 오차"
+summary: "실습은 재구성 오차를 이용해 정상 데이터와 이상 입력을 비교한다."
 domain: repository
 tags: [wiki]
 owner: repository-maintainers

@@ -1,7 +1,7 @@
 ---
 id: wiki/overview
 title: "실습 저장소 개요"
-summary: "실습 저장소 개요"
+summary: "이 저장소는 비지도 학습과 생성 모델 실습을 다룬다."
 domain: repository
 tags: [wiki]
 owner: repository-maintainers
