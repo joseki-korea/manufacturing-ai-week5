@@ -29,3 +29,9 @@ related: []
 ## Lint
 
 `python3 scripts/wiki-lint.py`로 정보칸, 출처, 변경된 원본, 목록 연결과 상대 링크를 점검하고 사람이 주장과 민감 정보를 검토한다. `python3 scripts/rag-manifest.py`로 마크다운 청크 목록을 갱신한다.
+
+## 페이지와 정보칸
+
+파일과 디렉터리 이름은 영문 소문자 kebab-case로 정하고 한글 제목을 정보칸에 둔다. 각 페이지에는 id, title, summary, domain, tags, owner, status, created, updated, source, lang, sensitivity, related를 기재한다.
+
+제목은 의미 단위로 계층화하고 한 절은 A4 한 장을 넘기지 않는다. 표에는 머리줄을 두고 그림에는 한 줄에서 세 줄의 설명을 덧붙인다. 비밀, 개인정보, 회사 내부 수치는 위키에 넣지 않으며 secret 자료의 페이지는 만들지 않는다.

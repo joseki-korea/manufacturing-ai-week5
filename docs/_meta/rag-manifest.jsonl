@@ -89,13 +89,15 @@
 {"heading": "위키 작성 규칙", "id": "f440879195ce4ded", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "865cb740", "tags": ["wiki"]}
 {"heading": "Ingest", "id": "df7d5373a3e97a55", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "07865a91", "tags": ["wiki"]}
 {"heading": "Query", "id": "9415279af2688dcb", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "d201efb0", "tags": ["wiki"]}
-{"heading": "Lint", "id": "db59004bc4e7b7cd", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "53a9cd38", "tags": ["wiki"]}
+{"heading": "Lint", "id": "db59004bc4e7b7cd", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "676d187e", "tags": ["wiki"]}
+{"heading": "페이지와 정보칸", "id": "e999c40b17f8f380", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "7659bfa9", "tags": ["wiki"]}
 {"heading": "(preamble)", "id": "1fa3afe30995a940", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "8b61820b", "tags": ["wiki"]}
 {"heading": "위키 목록", "id": "2831000ba72cc0da", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "61fc9bd1", "tags": ["wiki"]}
 {"heading": "(preamble)", "id": "0fd445a1182e0820", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "0c8a9910", "tags": ["wiki"]}
 {"heading": "수집 기록", "id": "00eb27a62e2466eb", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "36e146e2", "tags": ["wiki"]}
 {"heading": "[2026-11-08] ingest | 저장소 코드와 문서", "id": "31ca2fa567cd40dd", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "600f28f1", "tags": ["wiki"]}
-{"heading": "[2026-11-08] ingest | 위키 설명 및 검증 정리", "id": "b68168a13d4ce258", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "8f69cdce", "tags": ["wiki"]}
+{"heading": "[2026-11-08] ingest | 위키 설명 및 검증 정리", "id": "b68168a13d4ce258", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "cc2baed6", "tags": ["wiki"]}
+{"heading": "[2026-11-08] ingest | 위키 작성 규칙 보완", "id": "1ce49b2ef98e13db", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "97ff514f", "tags": ["wiki"]}
 {"heading": "(preamble)", "id": "a2791ec6f4512741", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "7d7f6477", "tags": ["wiki"]}
 {"heading": "자주 묻는 질문", "id": "571af18ff3e4d1bc", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "8db7531f", "tags": ["wiki"]}
 {"heading": "실행 가능한 앱이 있나요?", "id": "2e092ca6e8729f21", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "7c3ae6bb", "tags": ["wiki"]}
