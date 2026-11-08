@@ -22,3 +22,9 @@ source_of_truth: "assets/MANIFEST.md"
 New files above 5 MB are not added to Git. Existing tracked files are listed without moving them.
 
 No tracked files above 5 MB were found.
+
+## Binary inventory (2026-11-08)
+
+| Name | Original path | Size (bytes) | SHA-256 | Drive link | Status |
+| --- | --- | ---: | --- | --- | --- |
+| — | — | 0 | — | — | No tracked binaries |
