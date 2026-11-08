@@ -1,5 +1,5 @@
 ---
-id: wiki/howto/notebooks
+id: manufacturing-ai-week5-wiki-pages-howto-notebooks
 title: "노트북 실행"
 summary: "호환되는 Jupyter 환경에서 노트북을 열고 필요한 의존성을 설치하도록 안내한다."
 domain: repository

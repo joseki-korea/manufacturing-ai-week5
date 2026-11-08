@@ -1,10 +1,17 @@
 #!/usr/bin/env python3
 """Generate a deterministic heading-level Markdown inventory; no embeddings."""
-import fnmatch, hashlib, json, os, re
+import fnmatch, hashlib, json, os, re, subprocess
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 os.chdir(ROOT)
+try:
+    origin = subprocess.check_output(['git', 'config', '--get', 'remote.origin.url'], text=True).strip()
+    repo = origin.rstrip('/').rsplit('/', 1)[-1].removesuffix('.git')
+except (subprocess.CalledProcessError, FileNotFoundError):
+    repo = ROOT.name
+if not re.fullmatch(r'[a-z0-9-]+', repo):
+    raise SystemExit('Repository name must be a lowercase kebab-case slug')
 patterns = [s.strip() for s in Path('.ragignore').read_text().splitlines() if s.strip() and not s.lstrip().startswith('#')]
 def ignored(path, directory=False):
     p = path.as_posix().removeprefix('./')
@@ -67,7 +74,7 @@ for base, dirs, files in os.walk('.', followlinks=False):
         for heading, a, b in chunks:
             content = ''.join(lines[a:b]).encode()
             rel = path.as_posix().removeprefix('./')
-            rows.append({'id': hashlib.sha256(f'{rel}:{a+1}:{heading}'.encode()).hexdigest()[:16], 'path': rel, 'heading': heading, 'sha8': hashlib.sha256(content).hexdigest()[:8], 'tags': [v.strip() for v in m.get('tags','').strip('[]').split(',') if v.strip()], 'lang': m.get('lang','und'), 'sensitivity': m.get('sensitivity','internal')})
+            rows.append({'id': repo + ':' + hashlib.sha256(f'{rel}:{a+1}:{heading}'.encode()).hexdigest()[:16], 'path': rel, 'heading': heading, 'start_line': a+1, 'end_line': b, 'sha8': hashlib.sha256(content).hexdigest()[:8], 'tags': [v.strip() for v in m.get('tags','').strip('[]').split(',') if v.strip()], 'lang': m.get('lang','und'), 'sensitivity': m.get('sensitivity','internal')})
 out = Path('docs/_meta/rag-manifest.jsonl'); out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(''.join(json.dumps(x, ensure_ascii=False, sort_keys=True)+'\n' for x in rows), encoding='utf-8')
 print(f'manifest: {len(rows)} chunks')

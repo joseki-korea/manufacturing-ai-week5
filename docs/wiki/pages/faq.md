@@ -1,5 +1,5 @@
 ---
-id: wiki/faq
+id: manufacturing-ai-week5-wiki-pages-faq
 title: "자주 묻는 질문"
 summary: "별도로 패키징된 애플리케이션이나 자동 테스트 모음은 추적되지 않는다고 아키텍처 문서가 명시한다."
 domain: repository

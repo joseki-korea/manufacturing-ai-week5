@@ -1,5 +1,5 @@
 ---
-id: wiki/index
+id: manufacturing-ai-week5-wiki-index
 title: "위키 목록"
 summary: "위키 목록"
 domain: repository

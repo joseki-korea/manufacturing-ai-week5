@@ -1,5 +1,5 @@
 ---
-id: wiki/log
+id: manufacturing-ai-week5-wiki-log
 title: "수집 기록"
 summary: "수집 기록"
 domain: repository
@@ -27,3 +27,7 @@ related: []
 ## [2026-11-08] ingest | 위키 작성 규칙 보완
 
 정보칸과 편집 규칙을 명시했다.
+
+## [2026-11-08] ingest | 레포별 식별자 구분
+
+여러 레포 수집 시 충돌하지 않도록 식별자를 정리했다.

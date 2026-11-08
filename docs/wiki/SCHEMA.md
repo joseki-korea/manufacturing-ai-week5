@@ -1,5 +1,5 @@
 ---
-id: wiki/schema
+id: manufacturing-ai-week5-wiki-schema
 title: "위키 작성 규칙"
 summary: "위키 작성 규칙"
 domain: repository
@@ -35,3 +35,5 @@ related: []
 파일과 디렉터리 이름은 영문 소문자 kebab-case로 정하고 한글 제목을 정보칸에 둔다. 각 페이지에는 id, title, summary, domain, tags, owner, status, created, updated, source, lang, sensitivity, related를 기재한다.
 
 제목은 의미 단위로 계층화하고 한 절은 A4 한 장을 넘기지 않는다. 표에는 머리줄을 두고 그림에는 한 줄에서 세 줄의 설명을 덧붙인다. 비밀, 개인정보, 회사 내부 수치는 위키에 넣지 않으며 secret 자료의 페이지는 만들지 않는다.
+
+위키 정보칸 id는 레포 슬러그와 wiki, 상대 경로 슬러그를 결합한다. 청크 id도 레포 슬러그로 구분한다. 관리 파일 `SCHEMA.md`는 표준 대문자 이름 예외다.

@@ -1,5 +1,5 @@
 ---
-id: wiki/modules/vae
+id: manufacturing-ai-week5-wiki-pages-modules-vae
 title: "변이형 오토인코더 실습"
 summary: "VAE 노트북은 재매개변수화, ELBO 손실과 잠재 공간 샘플 생성을 다룬다."
 domain: repository

@@ -5,6 +5,11 @@ from pathlib import Path
 from urllib.parse import unquote
 root = Path(__file__).resolve().parent.parent
 wiki = root / 'docs/wiki'
+try:
+    origin = subprocess.check_output(['git', 'config', '--get', 'remote.origin.url'], cwd=root, text=True, stderr=subprocess.DEVNULL).strip()
+    repo = origin.rstrip('/').rsplit('/', 1)[-1].removesuffix('.git')
+except (subprocess.CalledProcessError, FileNotFoundError):
+    repo = root.name
 errors, seen_ids = [], {}
 required = 'id title summary domain tags owner status created updated source lang sensitivity related'.split()
 citation = re.compile(r'\[source: ([^\]#]+)#L([1-9][0-9]*) @([0-9a-f]{8})\]')
@@ -31,6 +36,7 @@ for doc in sorted(wiki.rglob('*.md')):
         if m: fm[m.group(1)] = m.group(2).strip().strip('"\'')
     for key in required:
         if not fm.get(key): err(f'missing {key}')
+    if not fm.get('id', '').startswith(repo + '-wiki-'): err('id must start with repository slug')
     if fm.get('id') in seen_ids: err('duplicate id')
     if fm.get('id'): seen_ids[fm['id']] = rel
     if fm.get('sensitivity','').lower() == 'secret': err('secret page')
