@@ -20,3 +20,7 @@ source_of_truth: "RAG.md"
 # RAG index
 
 Use `rag-manifest.json` as the inventory of documents introduced by this change. Review sensitivity and access before indexing; do not index secrets, personal data, generated files or binary media. IDs are stable repository-relative paths. Recompute document hashes after changes. Existing legacy documents require separate review before ingestion.
+
+## Wiki
+
+The source-backed wiki lives in `docs/wiki/`; see its `SCHEMA.md` and `index.md`. Run `python3 scripts/wiki-lint.py` and `python3 scripts/rag-manifest.py` after updates. The generated JSONL is a chunk inventory, not a vector index; review sources and sensitivity before indexing.

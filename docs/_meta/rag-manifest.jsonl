@@ -1,0 +1,123 @@
+{"heading": "(preamble)", "id": "eae06b28ed94a13f", "lang": "en", "path": "AGENTS.md", "sensitivity": "internal", "sha8": "9ab9856a", "tags": ["repository", "documentation"]}
+{"heading": "Codex entrypoint", "id": "ed9bfe6967235217", "lang": "en", "path": "AGENTS.md", "sensitivity": "internal", "sha8": "2d466911", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "bf7f362db527da0a", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "7b570950", "tags": ["repository", "documentation"]}
+{"heading": "Architecture", "id": "a0eaf129a1318862", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "47e67972", "tags": ["repository", "documentation"]}
+{"heading": "Components and data flow", "id": "7f34873a47f4c417", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "419c7f0a", "tags": ["repository", "documentation"]}
+{"heading": "Current folders", "id": "29373216cde046c8", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "b73a9e90", "tags": ["repository", "documentation"]}
+{"heading": "Proposed asset organization and migration", "id": "a0be67508686e6ba", "lang": "en", "path": "ARCHITECTURE.md", "sensitivity": "internal", "sha8": "640fdc3b", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "b9d41809fc4f133f", "lang": "en", "path": "CLAUDE.md", "sensitivity": "internal", "sha8": "23e35e57", "tags": ["repository", "documentation"]}
+{"heading": "Claude entrypoint", "id": "41af3e72b4349b4d", "lang": "en", "path": "CLAUDE.md", "sensitivity": "internal", "sha8": "964db4ae", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "bc8c348bacaba4d2", "lang": "en", "path": "CONTRIBUTING.md", "sensitivity": "internal", "sha8": "30f358ef", "tags": ["repository", "documentation"]}
+{"heading": "Contributing", "id": "43bd2541feed2e92", "lang": "en", "path": "CONTRIBUTING.md", "sensitivity": "internal", "sha8": "03a2ef8a", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "e25b7b2263ca9211", "lang": "en", "path": "FOLDER-STRUCTURE.md", "sensitivity": "internal", "sha8": "00ec9c82", "tags": ["repository", "documentation"]}
+{"heading": "Folder structure", "id": "3a02dde742e201fa", "lang": "en", "path": "FOLDER-STRUCTURE.md", "sensitivity": "internal", "sha8": "448464a4", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "a6544224a53aa5ac", "lang": "en", "path": "GEMINI.md", "sensitivity": "internal", "sha8": "051bf9a3", "tags": ["repository", "documentation"]}
+{"heading": "Antigravity entrypoint", "id": "84625cbee6552b45", "lang": "en", "path": "GEMINI.md", "sensitivity": "internal", "sha8": "972ae66b", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "6e233c7cbf4f2e3f", "lang": "en", "path": "RAG.md", "sensitivity": "internal", "sha8": "4003cdc8", "tags": ["repository", "documentation"]}
+{"heading": "RAG index", "id": "b531c6f84cfee5a4", "lang": "en", "path": "RAG.md", "sensitivity": "internal", "sha8": "22a353d4", "tags": ["repository", "documentation"]}
+{"heading": "Wiki", "id": "169bc7b7054a4c76", "lang": "en", "path": "RAG.md", "sensitivity": "internal", "sha8": "78768b41", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "3620e3eb8468f8b2", "lang": "en", "path": "RULES.md", "sensitivity": "internal", "sha8": "09f3a124", "tags": ["repository", "documentation"]}
+{"heading": "Repository rules", "id": "428c0e926b76ac31", "lang": "en", "path": "RULES.md", "sensitivity": "internal", "sha8": "fd800374", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "8f35d61a3344b0ce", "lang": "en", "path": ".github/README.md", "sensitivity": "internal", "sha8": "f9a57d81", "tags": ["repository", "documentation"]}
+{"heading": ".github folder", "id": "367e35b738b5263e", "lang": "en", "path": ".github/README.md", "sensitivity": "internal", "sha8": "de6ae8ad", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "e805f8f6e105b000", "lang": "en", "path": ".github/pull_request_template.md", "sensitivity": "internal", "sha8": "641b7c73", "tags": ["repository", "documentation"]}
+{"heading": "Pull request", "id": "8617e9cb2ef02110", "lang": "en", "path": ".github/pull_request_template.md", "sensitivity": "internal", "sha8": "4a034e04", "tags": ["repository", "documentation"]}
+{"heading": "Change", "id": "774d0e4b09fadda5", "lang": "en", "path": ".github/pull_request_template.md", "sensitivity": "internal", "sha8": "7ecd7797", "tags": ["repository", "documentation"]}
+{"heading": "Verification", "id": "e120cd642647a8a0", "lang": "en", "path": ".github/pull_request_template.md", "sensitivity": "internal", "sha8": "dcb5d8e3", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "e34316b7965cccf9", "lang": "en", "path": "assets/MANIFEST.md", "sensitivity": "internal", "sha8": "a677b31d", "tags": ["repository", "documentation"]}
+{"heading": "Asset manifest", "id": "df0af27013784e69", "lang": "en", "path": "assets/MANIFEST.md", "sensitivity": "internal", "sha8": "c8a3a3e6", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "bc21e5a06ad4cbf8", "lang": "en", "path": "assets/README.md", "sensitivity": "internal", "sha8": "957b9a1e", "tags": ["repository", "documentation"]}
+{"heading": "assets folder", "id": "a828edca81ecf7f1", "lang": "en", "path": "assets/README.md", "sensitivity": "internal", "sha8": "3a5e5dfd", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "7dbdba394d16c569", "lang": "en", "path": "assets/images/README.md", "sensitivity": "internal", "sha8": "78e471c5", "tags": ["repository", "documentation"]}
+{"heading": "assets/images folder", "id": "50e0fb597828b26f", "lang": "en", "path": "assets/images/README.md", "sensitivity": "internal", "sha8": "10fa0f27", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "38a5216e3ce3fa74", "lang": "en", "path": "assets/images/brand/README.md", "sensitivity": "internal", "sha8": "76501887", "tags": ["repository", "documentation"]}
+{"heading": "assets/images/brand folder", "id": "47a9358f9bf5b419", "lang": "en", "path": "assets/images/brand/README.md", "sensitivity": "internal", "sha8": "e4fb67e1", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "ffaefbfd6f853012", "lang": "en", "path": "assets/images/diagrams/README.md", "sensitivity": "internal", "sha8": "482b6e6e", "tags": ["repository", "documentation"]}
+{"heading": "assets/images/diagrams folder", "id": "241579c1ce1569b0", "lang": "en", "path": "assets/images/diagrams/README.md", "sensitivity": "internal", "sha8": "17ef5a82", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "8e3f8d689c5f5cf8", "lang": "en", "path": "assets/images/photos/README.md", "sensitivity": "internal", "sha8": "2d2eb764", "tags": ["repository", "documentation"]}
+{"heading": "assets/images/photos folder", "id": "e69a1bf942689b8e", "lang": "en", "path": "assets/images/photos/README.md", "sensitivity": "internal", "sha8": "32288e85", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "6061cbb1e114729a", "lang": "en", "path": "assets/images/product/README.md", "sensitivity": "internal", "sha8": "335eff48", "tags": ["repository", "documentation"]}
+{"heading": "assets/images/product folder", "id": "bf4c53bdcad464f9", "lang": "en", "path": "assets/images/product/README.md", "sensitivity": "internal", "sha8": "ce5091dd", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "226822748ebdee44", "lang": "en", "path": "assets/images/screenshots/README.md", "sensitivity": "internal", "sha8": "265c8d68", "tags": ["repository", "documentation"]}
+{"heading": "assets/images/screenshots folder", "id": "9cbb10c7fbc42aac", "lang": "en", "path": "assets/images/screenshots/README.md", "sensitivity": "internal", "sha8": "6022f89b", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "09560b927f0f7c83", "lang": "en", "path": "assets/ui/README.md", "sensitivity": "internal", "sha8": "15610994", "tags": ["repository", "documentation"]}
+{"heading": "assets/ui folder", "id": "df805b6854976ebe", "lang": "en", "path": "assets/ui/README.md", "sensitivity": "internal", "sha8": "923faf6d", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "80b2196c22c55795", "lang": "en", "path": "assets/ui/components/README.md", "sensitivity": "internal", "sha8": "373b3395", "tags": ["repository", "documentation"]}
+{"heading": "assets/ui/components folder", "id": "dc47f21a1958d050", "lang": "en", "path": "assets/ui/components/README.md", "sensitivity": "internal", "sha8": "e6326eaf", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "6a9af8e835bd629d", "lang": "en", "path": "assets/ui/icons/README.md", "sensitivity": "internal", "sha8": "f388e349", "tags": ["repository", "documentation"]}
+{"heading": "assets/ui/icons folder", "id": "4a3b49174b36975f", "lang": "en", "path": "assets/ui/icons/README.md", "sensitivity": "internal", "sha8": "9ffbefa1", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "18856c1240fb2e08", "lang": "en", "path": "assets/ui/mockups/README.md", "sensitivity": "internal", "sha8": "f2256451", "tags": ["repository", "documentation"]}
+{"heading": "assets/ui/mockups folder", "id": "937316c6d1188fa2", "lang": "en", "path": "assets/ui/mockups/README.md", "sensitivity": "internal", "sha8": "b9590a48", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "144ced6c50644edf", "lang": "en", "path": "assets/ui/tokens/README.md", "sensitivity": "internal", "sha8": "436e08f0", "tags": ["repository", "documentation"]}
+{"heading": "assets/ui/tokens folder", "id": "a578e22d72dd103a", "lang": "en", "path": "assets/ui/tokens/README.md", "sensitivity": "internal", "sha8": "a8cff771", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "7876b6b848e2843e", "lang": "en", "path": "configs/README.md", "sensitivity": "internal", "sha8": "d5225056", "tags": ["repository", "documentation"]}
+{"heading": "configs folder", "id": "eb1b3b1fa15e9ce3", "lang": "en", "path": "configs/README.md", "sensitivity": "internal", "sha8": "0268ecf2", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "2121f54a8a2cc054", "lang": "en", "path": "data/README.md", "sensitivity": "internal", "sha8": "4a511117", "tags": ["repository", "documentation"]}
+{"heading": "data folder", "id": "488cf732ee11a1ea", "lang": "en", "path": "data/README.md", "sensitivity": "internal", "sha8": "6c8151b4", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "cb4119643b414785", "lang": "en", "path": "docs/ASSET-MAP.md", "sensitivity": "internal", "sha8": "ac18122d", "tags": ["repository", "documentation"]}
+{"heading": "Asset map", "id": "ea42b22edd39168f", "lang": "en", "path": "docs/ASSET-MAP.md", "sensitivity": "internal", "sha8": "ad938005", "tags": ["repository", "documentation"]}
+{"heading": "Completed", "id": "3c22073934c1a2a9", "lang": "en", "path": "docs/ASSET-MAP.md", "sensitivity": "internal", "sha8": "7b1bb6c2", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "63767c0bc4bb2512", "lang": "en", "path": "docs/README.md", "sensitivity": "internal", "sha8": "d7c6817d", "tags": ["repository", "documentation"]}
+{"heading": "docs folder", "id": "abc488a0f7d5c6de", "lang": "en", "path": "docs/README.md", "sensitivity": "internal", "sha8": "438c7e95", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "48f0b5c123880f2b", "lang": "en", "path": "docs/agents/README.md", "sensitivity": "internal", "sha8": "b00536fd", "tags": ["repository", "documentation"]}
+{"heading": "docs/agents folder", "id": "30e00d142d48907d", "lang": "en", "path": "docs/agents/README.md", "sensitivity": "internal", "sha8": "f98047ab", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "792b724794909247", "lang": "en", "path": "docs/agents/ROLE-antigravity.md", "sensitivity": "internal", "sha8": "92a23fb4", "tags": ["repository", "documentation"]}
+{"heading": "Antigravity role", "id": "d45ba02900a932d6", "lang": "en", "path": "docs/agents/ROLE-antigravity.md", "sensitivity": "internal", "sha8": "bfcea960", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "01eec2264ebf4787", "lang": "en", "path": "docs/agents/ROLE-claude.md", "sensitivity": "internal", "sha8": "6ccc9ba3", "tags": ["repository", "documentation"]}
+{"heading": "Claude role", "id": "f27ed981642f83a7", "lang": "en", "path": "docs/agents/ROLE-claude.md", "sensitivity": "internal", "sha8": "7d6d25cf", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "ea6f00e7689deab9", "lang": "en", "path": "docs/agents/ROLE-codex.md", "sensitivity": "internal", "sha8": "ceeeed29", "tags": ["repository", "documentation"]}
+{"heading": "Codex role", "id": "f8d8a9ce89a8d13a", "lang": "en", "path": "docs/agents/ROLE-codex.md", "sensitivity": "internal", "sha8": "341bc577", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "020be7f50d1bfbea", "lang": "en", "path": "docs/agents/sessions/README.md", "sensitivity": "internal", "sha8": "44b65085", "tags": ["repository", "documentation"]}
+{"heading": "docs/agents/sessions folder", "id": "f73bc23413805e17", "lang": "en", "path": "docs/agents/sessions/README.md", "sensitivity": "internal", "sha8": "8aeb20d6", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "42acab2e4a13672b", "lang": "en", "path": "docs/agents/sessions/ego-lite.md", "sensitivity": "internal", "sha8": "5c1c05c9", "tags": ["repository", "documentation"]}
+{"heading": "ego-lite session", "id": "b5364e80521dbb7f", "lang": "en", "path": "docs/agents/sessions/ego-lite.md", "sensitivity": "internal", "sha8": "cebb3bb5", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "a680d50e0a8eb41e", "lang": "en", "path": "docs/agents/sessions/github-backup.md", "sensitivity": "internal", "sha8": "da84a4b0", "tags": ["repository", "documentation"]}
+{"heading": "github-backup session", "id": "bb03b83129b44452", "lang": "en", "path": "docs/agents/sessions/github-backup.md", "sensitivity": "internal", "sha8": "ded40789", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "b4ed68aecfa6235e", "lang": "en", "path": "docs/agents/sessions/google-drive-backup.md", "sensitivity": "internal", "sha8": "dd31762d", "tags": ["repository", "documentation"]}
+{"heading": "google-drive-backup session", "id": "1e01fae3af1c6148", "lang": "en", "path": "docs/agents/sessions/google-drive-backup.md", "sensitivity": "internal", "sha8": "337ee801", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "cbe86d5e6f02cad8", "lang": "en", "path": "docs/agents/sessions/handoff.md", "sensitivity": "internal", "sha8": "0157ca87", "tags": ["repository", "documentation"]}
+{"heading": "handoff session", "id": "6de0940216bb6570", "lang": "en", "path": "docs/agents/sessions/handoff.md", "sensitivity": "internal", "sha8": "da3194ea", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "53919ec081f381c4", "lang": "en", "path": "docs/agents/sessions/janitor.md", "sensitivity": "internal", "sha8": "2d8e3f1e", "tags": ["repository", "documentation"]}
+{"heading": "janitor session", "id": "e634984277d6a567", "lang": "en", "path": "docs/agents/sessions/janitor.md", "sensitivity": "internal", "sha8": "b52dc0f1", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "71aa0e361dd7aa84", "lang": "en", "path": "docs/agents/sessions/pm.md", "sensitivity": "internal", "sha8": "83fd7f3d", "tags": ["repository", "documentation"]}
+{"heading": "pm session", "id": "a2c16882a794a74a", "lang": "en", "path": "docs/agents/sessions/pm.md", "sensitivity": "internal", "sha8": "f051e123", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "e3d14ffde24cfc59", "lang": "en", "path": "docs/agents/sessions/worker.md", "sensitivity": "internal", "sha8": "40172ef6", "tags": ["repository", "documentation"]}
+{"heading": "worker session", "id": "b51fd360509131df", "lang": "en", "path": "docs/agents/sessions/worker.md", "sensitivity": "internal", "sha8": "1646200b", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "36a9ccddd52eebc5", "lang": "en", "path": "docs/references/glossary.md", "sensitivity": "internal", "sha8": "e97aa910", "tags": ["repository", "documentation"]}
+{"heading": "Glossary", "id": "3a72c7b74a9ff892", "lang": "en", "path": "docs/references/glossary.md", "sensitivity": "internal", "sha8": "64ac6301", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "d09a5ed4bb1b8f7a", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "0d3cb299", "tags": ["wiki"]}
+{"heading": "위키 작성 규칙", "id": "f440879195ce4ded", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "865cb740", "tags": ["wiki"]}
+{"heading": "Ingest", "id": "df7d5373a3e97a55", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "07865a91", "tags": ["wiki"]}
+{"heading": "Query", "id": "9415279af2688dcb", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "d201efb0", "tags": ["wiki"]}
+{"heading": "Lint", "id": "db59004bc4e7b7cd", "lang": "ko", "path": "docs/wiki/SCHEMA.md", "sensitivity": "internal", "sha8": "53a9cd38", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "1fa3afe30995a940", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "8b61820b", "tags": ["wiki"]}
+{"heading": "위키 목록", "id": "2831000ba72cc0da", "lang": "ko", "path": "docs/wiki/index.md", "sensitivity": "internal", "sha8": "a74aaec4", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "0fd445a1182e0820", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "0c8a9910", "tags": ["wiki"]}
+{"heading": "수집 기록", "id": "00eb27a62e2466eb", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "36e146e2", "tags": ["wiki"]}
+{"heading": "[2026-11-08] ingest | 저장소 코드와 문서", "id": "31ca2fa567cd40dd", "lang": "ko", "path": "docs/wiki/log.md", "sensitivity": "internal", "sha8": "21c3237f", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "a2791ec6f4512741", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "592bce35", "tags": ["wiki"]}
+{"heading": "자주 묻는 질문", "id": "571af18ff3e4d1bc", "lang": "ko", "path": "docs/wiki/pages/faq.md", "sensitivity": "internal", "sha8": "7f72c108", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "a45550c33588b417", "lang": "ko", "path": "docs/wiki/pages/overview.md", "sensitivity": "internal", "sha8": "59234955", "tags": ["wiki"]}
+{"heading": "실습 저장소 개요", "id": "65a33c0fee67c584", "lang": "ko", "path": "docs/wiki/pages/overview.md", "sensitivity": "internal", "sha8": "7d9b2a07", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "ea3b690a6feb7466", "lang": "ko", "path": "docs/wiki/pages/concepts/reconstruction-error.md", "sensitivity": "internal", "sha8": "a294092c", "tags": ["wiki"]}
+{"heading": "재구성 오차", "id": "d51359c5bba84181", "lang": "ko", "path": "docs/wiki/pages/concepts/reconstruction-error.md", "sensitivity": "internal", "sha8": "386c05ee", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "6806b784e6b928b0", "lang": "ko", "path": "docs/wiki/pages/howto/notebooks.md", "sensitivity": "internal", "sha8": "b473116f", "tags": ["wiki"]}
+{"heading": "노트북 실행", "id": "01077f8320923b4a", "lang": "ko", "path": "docs/wiki/pages/howto/notebooks.md", "sensitivity": "internal", "sha8": "c3c5aa31", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "69c197da5c4143ff", "lang": "ko", "path": "docs/wiki/pages/modules/autoencoder.md", "sensitivity": "internal", "sha8": "4ab0b09d", "tags": ["wiki"]}
+{"heading": "오토인코더 실습", "id": "1ca380ec9e490f0a", "lang": "ko", "path": "docs/wiki/pages/modules/autoencoder.md", "sensitivity": "internal", "sha8": "92603169", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "4e2f90b8b86f9854", "lang": "ko", "path": "docs/wiki/pages/modules/diffusion.md", "sensitivity": "internal", "sha8": "a95b1f21", "tags": ["wiki"]}
+{"heading": "확산 모델 실습", "id": "3204a4645e355387", "lang": "ko", "path": "docs/wiki/pages/modules/diffusion.md", "sensitivity": "internal", "sha8": "12bbf881", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "b93c795cc080f0df", "lang": "ko", "path": "docs/wiki/pages/modules/gan.md", "sensitivity": "internal", "sha8": "61f3a550", "tags": ["wiki"]}
+{"heading": "GAN 실습", "id": "65c75114c7160750", "lang": "ko", "path": "docs/wiki/pages/modules/gan.md", "sensitivity": "internal", "sha8": "92626f9d", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "03f7e9d0a83fb227", "lang": "ko", "path": "docs/wiki/pages/modules/vae.md", "sensitivity": "internal", "sha8": "18959a1c", "tags": ["wiki"]}
+{"heading": "변이형 오토인코더 실습", "id": "b910c23f42706aef", "lang": "ko", "path": "docs/wiki/pages/modules/vae.md", "sensitivity": "internal", "sha8": "ecb5fab3", "tags": ["wiki"]}
+{"heading": "(preamble)", "id": "f80d3e1ce061f1b9", "lang": "en", "path": "experiments/README.md", "sensitivity": "internal", "sha8": "42f2b265", "tags": ["repository", "documentation"]}
+{"heading": "experiments folder", "id": "b7ca91e1919cddff", "lang": "en", "path": "experiments/README.md", "sensitivity": "internal", "sha8": "e09bcd9f", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "aad9a6fed34102f4", "lang": "en", "path": "models/README.md", "sensitivity": "internal", "sha8": "b732ba98", "tags": ["repository", "documentation"]}
+{"heading": "models folder", "id": "8dae7f47af236823", "lang": "en", "path": "models/README.md", "sensitivity": "internal", "sha8": "31f5eb9d", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "1524c3c6e53b9721", "lang": "en", "path": "notebooks/README.md", "sensitivity": "internal", "sha8": "3f56e2c8", "tags": ["repository", "documentation"]}
+{"heading": "notebooks folder", "id": "446a422aadc1586a", "lang": "en", "path": "notebooks/README.md", "sensitivity": "internal", "sha8": "3c029e6c", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "1572303116d9d07c", "lang": "en", "path": "reports/README.md", "sensitivity": "internal", "sha8": "87ca0b83", "tags": ["repository", "documentation"]}
+{"heading": "reports folder", "id": "c273e63d6f114f53", "lang": "en", "path": "reports/README.md", "sensitivity": "internal", "sha8": "f258a095", "tags": ["repository", "documentation"]}
+{"heading": "(preamble)", "id": "750221f47f3a5a16", "lang": "en", "path": "src/README.md", "sensitivity": "internal", "sha8": "bf66472d", "tags": ["repository", "documentation"]}
+{"heading": "src folder", "id": "1aa7790e50e08a39", "lang": "en", "path": "src/README.md", "sensitivity": "internal", "sha8": "ae071f6c", "tags": ["repository", "documentation"]}

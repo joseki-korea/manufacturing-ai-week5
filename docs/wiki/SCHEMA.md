@@ -1,0 +1,31 @@
+---
+id: wiki/schema
+title: "위키 작성 규칙"
+summary: "위키 작성 규칙"
+domain: repository
+tags: [wiki]
+owner: repository-maintainers
+status: draft
+created: 2026-11-08
+updated: 2026-11-08
+source: "docs/wiki/SCHEMA.md"
+lang: ko
+sensitivity: internal
+related: []
+---
+
+# 위키 작성 규칙
+
+원본은 저장소의 코드와 문서이며 복사하지 않는다. 위키는 `docs/wiki/`에 두고 벡터 색인은 저장소에 커밋하지 않는다.
+
+## Ingest
+
+원본을 읽고 민감 정보를 제외한다. 주제별 개요·모듈·개념·엔터티·실행 방법·FAQ 페이지를 작성하고 각 주장에 `[source: path#Lline @sha8]`로 원본 커밋과 줄을 기록한다. 한 페이지에 한 주제를 담고 필수 정보칸을 채운다. 목록을 갱신하고 로그 끝에 ingest 기록을 추가한다.
+
+## Query
+
+목록에서 관련 페이지를 찾고 원본 줄과 커밋을 확인한다. 근거가 없는 답은 추측하지 않는다.
+
+## Lint
+
+`python3 scripts/wiki-lint.py`로 정보칸, 출처, 변경된 원본, 목록 연결과 상대 링크를 점검하고 사람이 주장과 민감 정보를 검토한다. `python3 scripts/rag-manifest.py`로 마크다운 청크 목록을 갱신한다.

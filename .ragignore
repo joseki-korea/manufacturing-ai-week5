@@ -9,3 +9,12 @@ vendor/
 *.jpeg
 *.pdf
 .env*
+
+# Local indexes
+*.faiss
+*.index
+*.sqlite
+*.db
+
+# Root README contains personal details
+/README.md
