@@ -33,10 +33,16 @@ def meta(lines):
                 return {k: ','.join(map(str, v)) if isinstance(v, list) else str(v) for k, v in parsed.items()}
         except (ValueError, StopIteration):
             pass
+        field = None
         for line in lines[1:]:
             if line.strip() == '---': break
             m = re.match(r'^([a-z_]+):\s*(.*)$', line)
-            if m: out[m[1]] = m[2].strip(' "\'')
+            if m:
+                field = m[1]
+                out[field] = m[2].strip().strip('\"\'')
+            elif field == 'tags':
+                item = re.match(r'^\s*-\s+(.+?)\s*$', line)
+                if item: out[field] += ',' + item.group(1).strip('\"\'')
     return out
 
 rows = []
@@ -48,7 +54,7 @@ for base, dirs, files in os.walk('.', followlinks=False):
         try: lines = path.read_text(encoding='utf-8').splitlines(keepends=True)
         except (UnicodeError, OSError): continue
         m = meta(lines)
-        if m.get('sensitivity', 'internal').lower() == 'secret': continue
+        if re.match(r'^secret(?:\s|#|$)', m.get('sensitivity', 'internal').lower()): continue
         chunks, title, start = [], '(preamble)', 0
         in_fence = False
         for i, line in enumerate(lines):
