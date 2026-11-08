@@ -1,0 +1,48 @@
+
+
+# repo-standard: append to existing .gitignore (do not replace)
+# repo-standard: assets ignore (Addendum 2)
+assets/images/*
+!assets/images/README.md
+!assets/images/drive-manifest.json
+!assets/images/*.md
+assets/binaries/*
+!assets/binaries/README.md
+!assets/binaries/drive-manifest.json
+!assets/binaries/*.md
+.env
+.env.*
+*.pem
+*.key
+**/secrets/
+*.secret
+
+# repo-standard: video assets ignore (Addendum 5)
+assets/videos/*
+!assets/videos/README.md
+!assets/videos/drive-manifest.json
+!assets/videos/*.md
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+# Assets Drive sync ignores (Addendum 2, 5 & 6)
+/assets/images/*
+!/assets/images/README.md
+!/assets/images/drive-manifest.json
+/assets/binaries/*
+!/assets/binaries/README.md
+!/assets/binaries/drive-manifest.json
+/assets/videos/*
+!/assets/videos/README.md
+!/assets/videos/drive-manifest.json
+
+# Keep assets/ui-components source tracked, ignore only media/binary
+/assets/ui-components/*.png
+/assets/ui-components/*.jpg
+/assets/ui-components/*.jpeg
+/assets/ui-components/*.gif
+/assets/ui-components/*.webp
+/assets/ui-components/*.zip
+/assets/ui-components/*.tar*

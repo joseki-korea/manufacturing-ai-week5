@@ -1,3 +1,16 @@
+---
+id: joseki-korea-manufacturing-ai-week5/README.md
+title: "충북대학교 제조 AI 실제 5주차 실습 및 과제 — 프로젝트 개요"
+repo: joseki-korea-manufacturing-ai-week5
+device_scope: all
+doc_type: readme
+tags: ["manufacturing-ai", "unsupervised-learning", "generative-models", "autoencoder", "vae", "gan", "diffusion"]
+status: DRAFT
+updated: 2026-11-07
+source_of_truth: README.md
+---
+- **GitHub Repository**: https://github.com/joseki-korea/manufacturing-ai-week5
+- **Google Drive Artifacts**: https://drive.google.com/drive/folders/1LJ8G0sUH5XHLmWcF1TxsdFJ-7Kr19OVq
 # 충북대학교 제조 AI 실제 (8884023-01) - 5주차 실습 및 과제
 
 - **작성자**: 2026154001 정용석
@@ -34,3 +47,33 @@
 ### 4. GAN과 Diffusion Model의 생성 메커니즘 비교
 - **GAN**: Generator와 Discriminator의 2인 제로섬 게임(Minimax)을 통해 정교하고 선명한 이미지를 1-step으로 고속 생성하나, Mode Collapse 및 학습 불안정성 존재.
 - **Diffusion(DDPM)**: 전진 과정에서 점진적으로 가우시안 노이즈를 주입하고, U-Net 신경망이 각 스텝의 노이즈를 예측·제거하는 다단계 마르코프 체인 역확산을 수행하여 모드 붕괴 없이 극도로 안정적이고 다양한 고품질 생성 달성.
+
+
+## 실행 방법
+
+- Python 3.10+ 및 Jupyter 환경에서 실습 노트북 실행.
+- 필수 라이브러리: `torch`, `torchvision`, `numpy`, `matplotlib`, `scikit-learn`.
+- 실습 노트북 순서대로 실행 (`lab5_1_autoencoder.ipynb` ~ `lab5_4_diffusion_model.ipynb`).
+
+
+## 규칙 요약
+
+- 규칙 단일 정본은 vault `main`의 `rules/INDEX.md`와 Rule 00·01·02·04이다. 이 레포 규칙은 `docs/RULES.md`에 있다.
+- 세션 역할(PM·작업·janitor)은 `docs/ROLES.md`에 있다.
+- 폴더 구조와 폴더별 목적은 `docs/ARCHITECTURE.md`에 있다.
+- 비밀·토큰·개인정보는 어떤 파일에도 평문으로 기록하지 않는다. force push 금지, main 직접 push 금지.
+
+## 문서 링크
+
+| 문서 | 경로 | 내용 |
+|---|---|---|
+| 규칙 | [docs/RULES.md](docs/RULES.md) | 레포 규칙 + vault 정본 포인터 |
+| 역할 | [docs/ROLES.md](docs/ROLES.md) | PM·작업·janitor 세션 |
+| 구조 | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | 폴더 트리와 목적 |
+| 핸드오프 | [handoffs/README.md](handoffs/README.md) | 에이전트 세션 인계 노트 |
+| 에셋 | [assets/](assets/) | images · src · components · binaries |
+| RAG 목록 | [rag-manifest.json](rag-manifest.json) | 검색 대상 문서 목록 |
+
+## Running the notebooks
+
+Open the root notebooks in a compatible Jupyter environment and install their imported dependencies. Training downloads MNIST; full execution has not been verified.
