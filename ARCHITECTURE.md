@@ -27,3 +27,7 @@ source_of_truth: "docs/ARCHITECTURE.md"
 ## 2. 정본 문서 안내
 상세한 디렉토리 레이아웃, Current→Target 매핑, 시맨틱 재구성 설계 및 롤백 계획은 아래 정본 문서를 참고하십시오:
 👉 **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)**
+
+## 현재 최상위 디렉터리 (2026-11-08)
+
+`.github/`, `assets/`, `configs/`, `data/`, `docs/`, `experiments/`, `handoffs/`, `models/`, `notebooks/`, `reports/`, `src/`.
