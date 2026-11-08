@@ -24,3 +24,11 @@ related: []
 - [재구성 오차](pages/concepts/reconstruction-error.md) — 실습은 재구성 오차를 이용해 정상 데이터와 이상 입력을 비교한다. [source: README.md#L49 @9d52e1c2]
 - [노트북 실행](pages/howto/notebooks.md) — 호환되는 Jupyter 환경에서 노트북을 열고 필요한 의존성을 설치하도록 안내한다. [source: README.md#L66 @9d52e1c2]
 - [자주 묻는 질문](pages/faq.md) — 별도로 패키징된 애플리케이션이나 자동 테스트 모음은 추적되지 않는다고 아키텍처 문서가 명시한다. [source: ARCHITECTURE.md#L22 @9d52e1c2]
+
+## 멀티에이전트 문서
+
+- [핸드오프 규칙](../agents/handoffs/README.md) — 인계 파일 이름·ACK·archive 절차
+- [핸드오프 양식](../agents/handoffs/TEMPLATE.md) — 정보칸과 기록 항목
+- [정리 담당](../agents/ROLE-janitor.md) — 임시 파일·끝난 작업 정리 기준
+- [감시 담당](../agents/ROLE-watchdog.md) — 정체·디스크·맥락·규칙 감시 기준
+- [훅 목록](../agents/HOOKS.md) — 이 저장소 훅 실측 결과와 추가 방법
